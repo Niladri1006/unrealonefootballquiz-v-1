@@ -82,5 +82,17 @@
 
 
     <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('backgroundMusic');
+            const startButton = document.getElementById('start');
+            
+            startButton.addEventListener('click', function() {
+                audio.play().catch(function(error) {
+                    console.log("Audio playback failed:", error);
+                });
+            });
+        });
+    </script>
 </body>
 </html>
