@@ -1,19 +1,19 @@
 body {
     margin: 0%;
     padding: 0%;
-   
+    background-image: url(bck.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   #cont{
-     background-image: url(bck.png);
-     height: 100vh;
-     margin: 0%;
+     margin:1%;
     padding: 0%;
    
   }
   #pvid {
     width: 86.5%;
-    height: 99%;
+    height: 100%;
     margin: 0px;
     border-radius: 20px;
     border: 3px solid red;
@@ -53,7 +53,7 @@ body {
   }
   
   #cont a:hover {
-    background-color: rgb(112, 110, 107);
+    background-color: red;
     transition: 750ms;
   
   }
@@ -91,7 +91,7 @@ body {
   }
 
   #ucl,
-  #wc {
+  #wc  {
     width: 15vw;
     height: 30vh;
     border-radius: 20px;
@@ -102,7 +102,410 @@ body {
   }
 
 
- 
+ /*Premier League*/
+
+#premierleague{
+  display: none;
+}
+
+#points{
+  color: white;
+  position: absolute;
+  left: 85%;
+  top: 0%;
+  font-family: "Orbitron", sans-serif;
+}
+
+
+#quescont1,
+#quescont2,
+#quescont3,
+#quescont4,
+#quescont5,
+#quescont6,
+#quescont7,
+#quescont8,
+#quescont9,
+#quescont10{
+   width: 60vw;
+   padding: 30px;
+   margin: 7vw;
+   height: auto;
+   background-image: url(bck.png);
+   border: 2px solid red;
+   font-family: "Roboto", sans-serif;
+   border-radius: 20px;
+}
+
+#plques1,
+#plques2,
+#plques3,
+#plques4,
+#plques5,
+#plques6,
+#plques7,
+#plques8,
+#plques9,
+#plques10{
+  color: white;
+  font-size: 40px;
+}
+
+#plind1,
+#plind2,
+#plind3,
+#plind4,
+#plind5,
+#plind6,
+#plind7,
+#plind8,
+#plind9,
+#plind10{
+  color: white;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.plans1 button,
+.plans2 button,
+.plans21 button,
+.plans22 button,
+.plans31 button,
+.plans32 button,
+.plans41 button,
+.plans42 button,
+.plans51 button,
+.plans52 button,
+.plans61 button,
+.plans62 button,
+.plans71 button,
+.plans72 button,
+.plans81 button,
+.plans82 button,
+.plans91 button,
+.plans92 button,
+.plans101 button,
+.plans102 button {
+  font-size: 30px;
+  width: 20vw;
+  margin: 40px;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid red; 
+  font-family: "Roboto", sans-serif;
+  padding: 10px 14px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.plans1 button:hover,
+.plans2 button:hover,
+.plans21 button:hover,
+.plans22 button:hover,
+.plans31 button:hover,
+.plans32 button:hover,
+.plans41 button:hover,
+.plans42 button:hover,
+.plans51 button:hover,
+.plans52 button:hover,
+.plans61 button:hover,
+.plans62 button:hover,
+.plans71 button:hover,
+.plans72 button:hover,
+.plans81 button:hover,
+.plans82 button:hover,
+.plans91 button:hover,
+.plans92 button:hover,
+.plans101 button:hover,
+.plans102 button:hover    {
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+#next1,
+#next2,
+#next3,
+#next4,
+#next5,
+#next6,
+#next7,
+#next8,
+#next9,
+#next10,
+#rty {
+  display: none;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  width: 10vw;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  border: solid red 2px;
+  margin: 10px;
+}
+
+#next1:hover,
+#next2:hover,
+#next3:hover,
+#next4:hover,
+#next5:hover,
+#next6:hover,
+#next7:hover,
+#next8:hover,
+#next9:hover,
+#next10:hover,
+#rty:hover{
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+
+#ans,
+#ans2,
+#ans3,
+#ans4,
+#ans5,
+#ans6,
+#ans7,
+#ans8,
+#ans9,
+#ans10 {
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+
+#prem2,
+#prem3,
+#prem4,
+#prem5,
+#prem6,
+#prem7,
+#prem8,
+#prem9,
+#prem10 {
+  display: none;
+}
+
+
+
+#premend{
+  display: none;
+}
+
+#premendcont{
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+}
+
+#res,
+#comp{
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+/*La-Liga*/
+
+#laligas {
+  display: none;
+}
+
+#llpoints {
+  color: white;
+  position: absolute;
+  left: 85%;
+  top: 0%;
+  font-family: "Orbitron", sans-serif;
+}
+
+#laquescont1,
+#laquescont2,
+#laquescont3,
+#laquescont4,
+#laquescont5,
+#laquescont6,
+#laquescont7,
+#laquescont8,
+#laquescont9,
+#laquescont10 {
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+}
+
+#laques1,
+#laques2,
+#laques3,
+#laques4,
+#laques5,
+#laques6,
+#laques7,
+#laques8,
+#laques9,
+#laques10 {
+  color: white;
+  font-size: 40px;
+}
+
+#laind1,
+#laind2,
+#laind3,
+#laind4,
+#laind5,
+#laind6,
+#laind7,
+#laind8,
+#laind9,
+#laind10 {
+  color: white;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+#laopt1, #laopt2, #laopt3, #laopt4,
+#laopt21, #laopt22, #laopt23, #laopt24,
+#laopt31, #laopt32, #laopt33, #laopt34,
+#laopt41, #laopt42, #laopt43, #laopt44,
+#laopt51, #laopt52, #laopt53, #laopt54,
+#laopt61, #laopt62, #laopt63, #laopt64,
+#laopt71, #laopt72, #laopt73, #laopt74,
+#laopt81, #laopt82, #laopt83, #laopt84,
+#laopt91, #laopt92, #laopt93, #laopt94,
+#laopt101, #laopt102, #laopt103, #laopt104 {
+  font-size: 30px;
+  width: 20vw;
+  margin: 40px;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 14px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+#laopt1:hover, #laopt2:hover, #laopt3:hover, #laopt4:hover,
+#laopt21:hover, #laopt22:hover, #laopt23:hover, #laopt24:hover,
+#laopt31:hover, #laopt32:hover, #laopt33:hover, #laopt34:hover,
+#laopt41:hover, #laopt42:hover, #laopt43:hover, #laopt44:hover,
+#laopt51:hover, #laopt52:hover, #laopt53:hover, #laopt54:hover,
+#laopt61:hover, #laopt62:hover, #laopt63:hover, #laopt64:hover,
+#laopt71:hover, #laopt72:hover, #laopt73:hover, #laopt74:hover,
+#laopt81:hover, #laopt82:hover, #laopt83:hover, #laopt84:hover,
+#laopt91:hover, #laopt92:hover, #laopt93:hover, #laopt94:hover,
+#laopt101:hover, #laopt102:hover, #laopt103:hover, #laopt104:hover,
+#lanext1:hover,
+#lanext2:hover,
+#lanext3:hover,
+#lanext4:hover,
+#lanext5:hover,
+#lanext6:hover,
+#lanext7:hover,
+#lanext8:hover,
+#lanext9:hover,
+#lanext10:hover,
+#larty:hover {
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+#lanext1,
+#lanext2,
+#lanext3,
+#lanext4,
+#lanext5,
+#lanext6,
+#lanext7,
+#lanext8,
+#lanext9,
+#lanext10,
+#larty {
+  display: none;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  width: 10vw;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  border: solid red 2px;
+  margin: 10px;
+}
+
+#ligaend {
+  display: none;
+}
+
+#ligaendcont {
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+}
+
+#lares {
+  color: white;
+  font-size: 40px;
+}
+
+#lacom {
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+
+
+#laans,
+#laans2,
+#laans3,
+#laans4,
+#laans5,
+#laans6,
+#laans7,
+#laans8,
+#laans9,
+#laans10 {
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
 
 
 
@@ -156,18 +559,21 @@ body {
   border: solid red 2px;
 }
 
+#modal button:hover{
+  background-color: red;
+  transition: all 0.3s ease;
+}
 
 
 
   /*mobile responsive*/
   @media (max-width: 600px) {
-    #cont{
+    /*#cont{
        background-image: url(bck.png);
      height: 100vh;
      margin: 0%;
     padding: 0%;
-   
-    }
+    }*/
     #mvid {
       display: block;
       border: 2px solid red;
@@ -235,4 +641,418 @@ body {
 
   
   }
+
+/* UCL Quiz Styles */
+#ucls {
+  display: none;
+}
+
+#uclpoints {
+  color: white;
+  position: absolute;
+  left: 85%;
+  top: 0%;
+  font-family: "Orbitron", sans-serif;
+}
+
+#uclquescont1,
+#uclquescont2,
+#uclquescont3,
+#uclquescont4,
+#uclquescont5,
+#uclquescont6,
+#uclquescont7,
+#uclquescont8,
+#uclquescont9,
+#uclquescont10 {
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+}
+
+#uclques1,
+#uclques2,
+#uclques3,
+#uclques4,
+#uclques5,
+#uclques6,
+#uclques7,
+#uclques8,
+#uclques9,
+#uclques10 {
+  color: white;
+  font-size: 40px;
+}
+
+#uclind1,
+#uclind2,
+#uclind3,
+#uclind4,
+#uclind5,
+#uclind6,
+#uclind7,
+#uclind8,
+#uclind9,
+#uclind10 {
+  color: white;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.uclans1 button,
+.uclans2 button,
+.uclans21 button,
+.uclans22 button,
+.uclans31 button,
+.uclans32 button,
+.uclans41 button,
+.uclans42 button,
+.uclans51 button,
+.uclans52 button,
+.uclans61 button,
+.uclans62 button,
+.uclans71 button,
+.uclans72 button,
+.uclans81 button,
+.uclans82 button,
+.uclans91 button,
+.uclans92 button,
+.uclans101 button,
+.uclans102 button {
+  font-size: 30px;
+  width: 20vw;
+  margin: 40px;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 14px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.uclans1 button:hover,
+.uclans2 button:hover,
+.uclans21 button:hover,
+.uclans22 button:hover,
+.uclans31 button:hover,
+.uclans32 button:hover,
+.uclans41 button:hover,
+.uclans42 button:hover,
+.uclans51 button:hover,
+.uclans52 button:hover,
+.uclans61 button:hover,
+.uclans62 button:hover,
+.uclans71 button:hover,
+.uclans72 button:hover,
+.uclans81 button:hover,
+.uclans82 button:hover,
+.uclans91 button:hover,
+.uclans92 button:hover,
+.uclans101 button:hover,
+.uclans102 button:hover {
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+#uclnext1,
+#uclnext2,
+#uclnext3,
+#uclnext4,
+#uclnext5,
+#uclnext6,
+#uclnext7,
+#uclnext8,
+#uclnext9,
+#uclnext10,
+#uclrty {
+  display: none;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  width: 10vw;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  border: solid red 2px;
+  margin: 10px;
+}
+
+#uclnext1:hover,
+#uclnext2:hover,
+#uclnext3:hover,
+#uclnext4:hover,
+#uclnext5:hover,
+#uclnext6:hover,
+#uclnext7:hover,
+#uclnext8:hover,
+#uclnext9:hover,
+#uclnext10:hover,
+#uclrty:hover {
+  background-color: red;
+  transition: 750ms;
+}
+
+#uclans,
+#uclans2,
+#uclans3,
+#uclans4,
+#uclans5,
+#uclans6,
+#uclans7,
+#uclans8,
+#uclans9,
+#uclans10 {
+  color: white;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+
+#uclend {
+  display: none;
+  margin-top: 20vh;
+}
+
+#uclendcont {
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+}
+
+#uclres {
+  color: white;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+}
+
+#uclcom {
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* World Cup Quiz */
+#wcs {
+  display: none;
+}
+
+#wcpoints {
+  color: white;
+  position: absolute;
+  left: 85%;
+  top: 0%;
+  font-family: "Orbitron", sans-serif;
+}
+
+#wcquescont1,
+#wcquescont2,
+#wcquescont3,
+#wcquescont4,
+#wcquescont5,
+#wcquescont6,
+#wcquescont7,
+#wcquescont8,
+#wcquescont9,
+#wcquescont10 {
+   width: 60vw;
+   padding: 30px;
+   margin: 7vw;
+   height: auto;
+   background-image: url(bck.png);
+   border: 2px solid red;
+   font-family: "Roboto", sans-serif;
+   border-radius: 20px;
+}
+
+#wcques1,
+#wcques2,
+#wcques3,
+#wcques4,
+#wcques5,
+#wcques6,
+#wcques7,
+#wcques8,
+#wcques9,
+#wcques10 {
+  color: white;
+  font-size: 40px;
+}
+
+#wcind1,
+#wcind2,
+#wcind3,
+#wcind4,
+#wcind5,
+#wcind6,
+#wcind7,
+#wcind8,
+#wcind9,
+#wcind10 {
+  color: white;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.wcans1 button,
+.wcans2 button,
+.wcans21 button,
+.wcans22 button,
+.wcans31 button,
+.wcans32 button,
+.wcans41 button,
+.wcans42 button,
+.wcans51 button,
+.wcans52 button,
+.wcans61 button,
+.wcans62 button,
+.wcans71 button,
+.wcans72 button,
+.wcans81 button,
+.wcans82 button,
+.wcans91 button,
+.wcans92 button,
+.wcans101 button,
+.wcans102 button {
+  font-size: 30px;
+  width: 20vw;
+  margin: 40px;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid red; 
+  font-family: "Roboto", sans-serif;
+  padding: 10px 14px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.wcans1 button:hover,
+.wcans2 button:hover,
+.wcans21 button:hover,
+.wcans22 button:hover,
+.wcans31 button:hover,
+.wcans32 button:hover,
+.wcans41 button:hover,
+.wcans42 button:hover,
+.wcans51 button:hover,
+.wcans52 button:hover,
+.wcans61 button:hover,
+.wcans62 button:hover,
+.wcans71 button:hover,
+.wcans72 button:hover,
+.wcans81 button:hover,
+.wcans82 button:hover,
+.wcans91 button:hover,
+.wcans92 button:hover,
+.wcans101 button:hover,
+.wcans102 button:hover {
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+#wcnext1,
+#wcnext2,
+#wcnext3,
+#wcnext4,
+#wcnext5,
+#wcnext6,
+#wcnext7,
+#wcnext8,
+#wcnext9,
+#wcnext10,
+#wcrty {
+  display: none;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  width: 10vw;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  border: solid red 2px;
+  margin: 10px;
+}
+
+#wcnext1:hover,
+#wcnext2:hover,
+#wcnext3:hover,
+#wcnext4:hover,
+#wcnext5:hover,
+#wcnext6:hover,
+#wcnext7:hover,
+#wcnext8:hover,
+#wcnext9:hover,
+#wcnext10:hover,
+#wcrty:hover {
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+#wcans,
+#wcans2,
+#wcans3,
+#wcans4,
+#wcans5,
+#wcans6,
+#wcans7,
+#wcans8,
+#wcans9,
+#wcans10 {
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+#wc2,
+#wc3,
+#wc4,
+#wc5,
+#wc6,
+#wc7,
+#wc8,
+#wc9,
+#wc10 {
+  display: none;
+}
+
+#wcend {
+  display: none;
+}
+
+#wcendcont {
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+}
+
+#wcres,
+#wccom {
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
 
