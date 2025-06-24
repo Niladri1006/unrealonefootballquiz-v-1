@@ -30,9 +30,10 @@ prem.addEventListener("click",()=>{
     ucl.style.display = "none";
     wc.style.display = "none";
     pvid.style.display = "none";
+    mvid.style.display = "none";
     modal.style.display = "block";
     premierleague.style.display = "block";
-    document.body.style.backgroundImage = "url('epl bck ls.png')";
+   // document.body.style.backgroundImage = "url('epl bck ls.png')";
 });
 
 
@@ -42,9 +43,10 @@ laliga.addEventListener("click",()=>{
     ucl.style.display = "none";
     wc.style.display = "none";
     pvid.style.display = "none";
+    mvid.style.display = "none";
     modal.style.display = "block";
     laligas.style.display = "block";
-    document.body.style.backgroundImage = "url('laliga bck ls.png')";
+    //document.body.style.backgroundImage = "url('laliga bck ls.png')";
 });
  
 
@@ -54,9 +56,10 @@ ucl.addEventListener("click",()=>{
      ucl.style.display = "none";
      wc.style.display = "none";
      pvid.style.display = "none";
+     mvid.style.display = "none";
      modal.style.display = "block";
     ucls.style.display = "block";
-     document.body.style.backgroundImage = "url('ucl bck ls.png')";
+     //document.body.style.backgroundImage = "url('ucl bck ls.png')";
  });
 
  wc.addEventListener("click",()=>{
@@ -65,9 +68,10 @@ ucl.addEventListener("click",()=>{
      ucl.style.display = "none";
      wc.style.display = "none";
      pvid.style.display = "none";
+     mvid.style.display = "none";
      modal.style.display = "block";
     wcs.style.display = "block";
-     document.body.style.backgroundImage = "url('wc bck ls.png')";
+     //document.body.style.backgroundImage = "url('wc bck ls.png')";
  });
 
 mstart.addEventListener("click",()=>{
