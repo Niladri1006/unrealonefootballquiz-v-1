@@ -1,114 +1,109 @@
 body {
-    margin: 0%;
-    padding: 0%;
-    background-image: url(bck.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  #cont{
-     margin:1%;
-    padding: 0%;
-   
-  }
-  #pvid {
-    width: 86.5%;
-    height: 100%;
-    margin: 0px;
-    border-radius: 20px;
-    border: 3px solid red;
-    display: block;
-  }
-  
-  #mvid{
-    display: none;
-  }
-  
-  #cont h1 {
-    color: white;
-    position: absolute;
-    top: 7%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  #cont a {
-    color: white;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    text-decoration: none;
-    background-color: transparent;
-    width: 10vw;
-    cursor: pointer;
-    border-radius: 10px;
-    font-family: "Orbitron", sans-serif;
-    border: solid red 2px;
-  }
-  
-  #cont a:hover {
-    background-color: red;
-    transition: 750ms;
-  
-  }
-  
+  margin: 0%;
+  padding: 0%;
+  background-image: url(bck.png);
 
-  /*Category*/
-
-  .category-1{
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    display: flex;
-    flex-direction: row;
-   
-  }
-
-  #prem,
-  #laliga {
-    width: 15vw;
-    height: 30vh;
-    border-radius: 20px;
-    margin-left: 80px;
-    cursor: pointer;
-     display: none;
-  }
+}
 
 
-  .category-2{
-    position: absolute;
-    top: 60%;
-    left: 30%;
-    display: flex;
-    flex-direction: row;
-   
-  }
+#pvid {
+  width: 86.5%;
+  height: 100%;
+  margin: 0px;
+  border-radius: 20px;
+  border: 3px solid red;
+  display: block;
+}
 
-  #ucl,
-  #wc  {
-    width: 15vw;
-    height: 30vh;
-    border-radius: 20px;
-    margin-left: 80px;
-    cursor: pointer;
-    display: none;
-    
-  }
-
-
- /*Premier League*/
-
-#premierleague{
+#mvid {
   display: none;
 }
 
-#points{
+#cont h1 {
+  color: white;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#cont a {
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-decoration: none;
+  background-color: transparent;
+  width: 10vw;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  border: solid red 2px;
+}
+
+#cont a:hover {
+  background-color: red;
+  transition: 750ms;
+
+}
+
+
+/*Category*/
+
+.category-1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#prem,
+#laliga {
+  width: 15vw;
+  height: 30vh;
+  border-radius: 20px;
+  margin-left: 80px;
+  cursor: pointer;
+  display: none;
+}
+
+
+.category-2 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#ucl,
+#wc {
+  width: 15vw;
+  height: 30vh;
+  border-radius: 20px;
+  margin-left: 80px;
+  cursor: pointer;
+  display: none;
+
+}
+
+
+/*Premier League*/
+
+#premierleague {
+  display: none;
+}
+
+#points {
   color: white;
   position: absolute;
   left: 85%;
@@ -126,15 +121,15 @@ body {
 #quescont7,
 #quescont8,
 #quescont9,
-#quescont10{
-   width: 60vw;
-   padding: 30px;
-   margin: 7vw;
-   height: auto;
-   background-image: url(bck.png);
-   border: 2px solid red;
-   font-family: "Roboto", sans-serif;
-   border-radius: 20px;
+#quescont10 {
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
 }
 
 #plques1,
@@ -146,7 +141,7 @@ body {
 #plques7,
 #plques8,
 #plques9,
-#plques10{
+#plques10 {
   color: white;
   font-size: 40px;
 }
@@ -160,7 +155,7 @@ body {
 #plind7,
 #plind8,
 #plind9,
-#plind10{
+#plind10 {
   color: white;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
@@ -195,7 +190,7 @@ body {
   border-radius: 10px;
   background-color: transparent;
   color: white;
-  border: 2px solid red; 
+  border: 2px solid red;
   font-family: "Roboto", sans-serif;
   padding: 10px 14px;
   white-space: normal;
@@ -221,7 +216,7 @@ body {
 .plans91 button:hover,
 .plans92 button:hover,
 .plans101 button:hover,
-.plans102 button:hover    {
+.plans102 button:hover {
   background-color: red;
   transition: all 0.3s ease;
 }
@@ -260,7 +255,7 @@ body {
 #next8:hover,
 #next9:hover,
 #next10:hover,
-#rty:hover{
+#rty:hover {
   background-color: red;
   transition: all 0.3s ease;
 }
@@ -296,11 +291,11 @@ body {
 
 
 
-#premend{
+#premend {
   display: none;
 }
 
-#premendcont{
+#premendcont {
   width: 60vw;
   padding: 30px;
   margin: 7vw;
@@ -311,7 +306,7 @@ body {
 }
 
 #res,
-#comp{
+#comp {
   font-size: 40px;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -385,16 +380,46 @@ body {
   font-weight: 300;
 }
 
-#laopt1, #laopt2, #laopt3, #laopt4,
-#laopt21, #laopt22, #laopt23, #laopt24,
-#laopt31, #laopt32, #laopt33, #laopt34,
-#laopt41, #laopt42, #laopt43, #laopt44,
-#laopt51, #laopt52, #laopt53, #laopt54,
-#laopt61, #laopt62, #laopt63, #laopt64,
-#laopt71, #laopt72, #laopt73, #laopt74,
-#laopt81, #laopt82, #laopt83, #laopt84,
-#laopt91, #laopt92, #laopt93, #laopt94,
-#laopt101, #laopt102, #laopt103, #laopt104 {
+#laopt1,
+#laopt2,
+#laopt3,
+#laopt4,
+#laopt21,
+#laopt22,
+#laopt23,
+#laopt24,
+#laopt31,
+#laopt32,
+#laopt33,
+#laopt34,
+#laopt41,
+#laopt42,
+#laopt43,
+#laopt44,
+#laopt51,
+#laopt52,
+#laopt53,
+#laopt54,
+#laopt61,
+#laopt62,
+#laopt63,
+#laopt64,
+#laopt71,
+#laopt72,
+#laopt73,
+#laopt74,
+#laopt81,
+#laopt82,
+#laopt83,
+#laopt84,
+#laopt91,
+#laopt92,
+#laopt93,
+#laopt94,
+#laopt101,
+#laopt102,
+#laopt103,
+#laopt104 {
   font-size: 30px;
   width: 20vw;
   margin: 40px;
@@ -410,16 +435,46 @@ body {
   word-wrap: break-word;
 }
 
-#laopt1:hover, #laopt2:hover, #laopt3:hover, #laopt4:hover,
-#laopt21:hover, #laopt22:hover, #laopt23:hover, #laopt24:hover,
-#laopt31:hover, #laopt32:hover, #laopt33:hover, #laopt34:hover,
-#laopt41:hover, #laopt42:hover, #laopt43:hover, #laopt44:hover,
-#laopt51:hover, #laopt52:hover, #laopt53:hover, #laopt54:hover,
-#laopt61:hover, #laopt62:hover, #laopt63:hover, #laopt64:hover,
-#laopt71:hover, #laopt72:hover, #laopt73:hover, #laopt74:hover,
-#laopt81:hover, #laopt82:hover, #laopt83:hover, #laopt84:hover,
-#laopt91:hover, #laopt92:hover, #laopt93:hover, #laopt94:hover,
-#laopt101:hover, #laopt102:hover, #laopt103:hover, #laopt104:hover,
+#laopt1:hover,
+#laopt2:hover,
+#laopt3:hover,
+#laopt4:hover,
+#laopt21:hover,
+#laopt22:hover,
+#laopt23:hover,
+#laopt24:hover,
+#laopt31:hover,
+#laopt32:hover,
+#laopt33:hover,
+#laopt34:hover,
+#laopt41:hover,
+#laopt42:hover,
+#laopt43:hover,
+#laopt44:hover,
+#laopt51:hover,
+#laopt52:hover,
+#laopt53:hover,
+#laopt54:hover,
+#laopt61:hover,
+#laopt62:hover,
+#laopt63:hover,
+#laopt64:hover,
+#laopt71:hover,
+#laopt72:hover,
+#laopt73:hover,
+#laopt74:hover,
+#laopt81:hover,
+#laopt82:hover,
+#laopt83:hover,
+#laopt84:hover,
+#laopt91:hover,
+#laopt92:hover,
+#laopt93:hover,
+#laopt94:hover,
+#laopt101:hover,
+#laopt102:hover,
+#laopt103:hover,
+#laopt104:hover,
 #lanext1:hover,
 #lanext2:hover,
 #lanext3:hover,
@@ -511,39 +566,45 @@ body {
 
 
 
-  /*modal*/
-  #modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    top: 0%;
-    left: 0;
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+/*modal*/
+#modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  top: 0%;
+  left: 0;
+  z-index: 1;
+
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: hidden;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
 
 #modal-content {
-    background-image: url(bck.png);
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 70%; /* Could be more or less, depending on screen size */
-    border-radius: 10px;
-    height: 40%;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  background-image: url(bck.png);
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  height: 40%;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-#mstart{
+#mstart {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 70%;
@@ -559,7 +620,7 @@ body {
   border: solid red 2px;
 }
 
-#modal button:hover{
+#modal button:hover {
   background-color: red;
   transition: all 0.3s ease;
 }
@@ -754,7 +815,6 @@ body {
   background-image: url(bck.png);
   border: 2px solid red;
   font-family: "Roboto", sans-serif;
-  border-radius: 20px;
 }
 
 #uclres {
@@ -792,14 +852,14 @@ body {
 #wcquescont8,
 #wcquescont9,
 #wcquescont10 {
-   width: 60vw;
-   padding: 30px;
-   margin: 7vw;
-   height: auto;
-   background-image: url(bck.png);
-   border: 2px solid red;
-   font-family: "Roboto", sans-serif;
-   border-radius: 20px;
+  width: 60vw;
+  padding: 30px;
+  margin: 7vw;
+  height: auto;
+  background-image: url(bck.png);
+  border: 2px solid red;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
 }
 
 #wcques1,
@@ -860,7 +920,7 @@ body {
   border-radius: 10px;
   background-color: transparent;
   color: white;
-  border: 2px solid red; 
+  border: 2px solid red;
   font-family: "Roboto", sans-serif;
   padding: 10px 14px;
   white-space: normal;
@@ -982,394 +1042,328 @@ body {
 
 
 
-  /*mobile responsive*/
-  @media (max-width: 600px) {
-  
-    #mvid {
-      display: block;
-      border: 2px solid red;
-      border-radius: 10px;
-      width: 95%;
-      height: 99vh;
-    }
-  
-    #pvid{
-     display: none;
-    }
-  
-    #cont h1{
-      font-size: 40px;
-      text-align: center;
-      width: 80%;
-      position: absolute;
-      top: 2%;
-    }
-  
-    
-
-    #cont a {
-      padding: 10px;
-      width: auto;
-       font-size: 40px;
-      text-align: center;
-      width: 40%;
-      position: absolute;
-      top: 80%;
-    }
-  
-    .category-1{
-      position: absolute;
-      top: 30%;
-      left: 1%;
-      display: flex;
-      flex-direction: row;
-     
-    }
-  
-    #prem,
-    #laliga {
-      width: 40vw;
-      height: 20vh;
-      border-radius: 20px;
-      margin-left: 20px;
-      cursor: pointer;
-       display: none;
-    }
-  
-  
-    .category-2{
-      position: absolute;
-      top: 60%;
-      left: 1%;
-      display: flex;
-      flex-direction: row;
-     
-    }
-  
-    #ucl,
-    #wc {
-      width: 40vw;
-      height: 20vh;
-      border-radius: 20px;
-      margin-left: 20px;
-      cursor: pointer;
-      display: none;
-      
-    }
-
-/*Modal*/
-
-#modal-content{
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%);
-
-  padding: 20px;
-  
-  
-}
-
-    #mstart{
-      width: 30vw;
-      font-size: 30px;
-      position: absolute;
-      top: 90%;
-    }
-  
-    /*Main Content*/
-
-#premierleague,
-#laligas,
-#ucls,
-#wcs{
-  height: 100vh;
-}
-
-
-
-    #quescont1,
-#quescont2,
-#quescont3,
-#quescont4,
-#quescont5,
-#quescont6,
-#quescont7,
-#quescont8,
-#quescont9,
-#quescont10,
-#laquescont1,
-#laquescont2,
-#laquescont3,
-#laquescont4,
-#laquescont5,
-#laquescont6,
-#laquescont7,
-#laquescont8,
-#laquescont9,
-#laquescont10,
-#uclquescont1,
-#uclquescont2,
-#uclquescont3,
-#uclquescont4,
-#uclquescont5,
-#uclquescont6,
-#uclquescont7,
-#uclquescont8,
-#uclquescont9,
-#uclquescont10,
-#wcquescont1,
-#wcquescont2,
-#wcquescont3,
-#wcquescont4,
-#wcquescont5,
-#wcquescont6,
-#wcquescont7,
-#wcquescont8,
-#wcquescont9,
-#wcquescont10 {
-   width: 80vw;
-   padding: 30px;
-   margin: 3vw;
-   height: 20vh;
-   background-image: url(bck.png);
-   border: 2px solid red;
-   font-family: "Roboto", sans-serif;
-   border-radius: 20px;
-}
-
-
-
-#plques1,
-#plques2,
-#plques3,
-#plques4,
-#plques5,
-#plques6,
-#plques7,
-#plques8,
-#plques9,
-#plques10,
-#laques1,
-#laques2,
-#laques3,
-#laques4,
-#laques5,
-#laques6,
-#laques7,
-#laques8,
-#laques9,
-#laques10,
-#uclques1,
-#uclques2,
-#uclques3,
-#uclques4,
-#uclques5,
-#uclques6,
-#uclques7,
-#uclques8,
-#uclques9,
-#uclques10,
-#wcques1,
-#wcques2,
-#wcques3,
-#wcques4,
-#wcques5,
-#wcques6,
-#wcques7,
-#wcques8,
-#wcques9,
-#wcques10 {
-  font-size: 35px;
-}
-
-
-.plans1 button,
-.plans2 button,
-.plans21 button,
-.plans22 button,
-.plans31 button,
-.plans32 button,
-.plans41 button,
-.plans42 button,
-.plans51 button,
-.plans52 button,
-.plans61 button,
-.plans62 button,
-.plans71 button,
-.plans72 button,
-.plans81 button,
-.plans82 button,
-.plans91 button,
-.plans92 button,
-.plans101 button,
-.plans102 button,
-#laopt1, #laopt2, #laopt3, #laopt4,
-#laopt21, #laopt22, #laopt23, #laopt24,
-#laopt31, #laopt32, #laopt33, #laopt34,
-#laopt41, #laopt42, #laopt43, #laopt44,
-#laopt51, #laopt52, #laopt53, #laopt54,
-#laopt61, #laopt62, #laopt63, #laopt64,
-#laopt71, #laopt72, #laopt73, #laopt74,
-#laopt81, #laopt82, #laopt83, #laopt84,
-#laopt91, #laopt92, #laopt93, #laopt94,
-#laopt101, #laopt102, #laopt103, #laopt104,
-.uclans1 button,
-.uclans2 button,
-.uclans21 button,
-.uclans22 button,
-.uclans31 button,
-.uclans32 button,
-.uclans41 button,
-.uclans42 button,
-.uclans51 button,
-.uclans52 button,
-.uclans61 button,
-.uclans62 button,
-.uclans71 button,
-.uclans72 button,
-.uclans81 button,
-.uclans82 button,
-.uclans91 button,
-.uclans92 button,
-.uclans101 button,
-.uclans102 button,
-.wcans1 button,
-.wcans2 button,
-.wcans21 button,
-.wcans22 button,
-.wcans31 button,
-.wcans32 button,
-.wcans41 button,
-.wcans42 button,
-.wcans51 button,
-.wcans52 button,
-.wcans61 button,
-.wcans62 button,
-.wcans71 button,
-.wcans72 button,
-.wcans81 button,
-.wcans82 button,
-.wcans91 button,
-.wcans92 button,
-.wcans101 button,
-.wcans102 button{
-    font-size: 30px;
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  margin: 40px;
-  cursor: pointer;
-  height: 60px;
-  border-radius: 10px;
-  background-color: transparent;
-  color: white;
-  border: 2px solid red; 
-  font-family: "Roboto", sans-serif;
-  padding: 10px 14px;
-  white-space: normal;
-  word-wrap: break-word;
-}
-
-#next1,
-#next2,
-#next3,
-#next4,
-#next5,
-#next6,
-#next7,
-#next8,
-#next9,
-#next10,
-#rty,
-#lanext1,
-#lanext2,
-#lanext3,
-#lanext4,
-#lanext5,
-#lanext6,
-#lanext7,
-#lanext8,
-#lanext9,
-#lanext10,
-#larty,
-#uclnext1,
-#uclnext2,
-#uclnext3,
-#uclnext4,
-#uclnext5,
-#uclnext6,
-#uclnext7,
-#uclnext8,
-#uclnext9,
-#uclnext10,
-#uclrty,
-#wcnext1,
-#wcnext2,
-#wcnext3,
-#wcnext4,
-#wcnext5,
-#wcnext6,
-#wcnext7,
-#wcnext8,
-#wcnext9,
-#wcnext10,
-#wcrty {
-  display: none;
-  color: white;
-  font-size: 40px;
-  text-decoration: none;
-  background-color: transparent;
-  width: 40vw;
-  cursor: pointer;
-  border-radius: 10px;
-  font-family: "Orbitron", sans-serif;
-  border: solid red 2px;
-  margin: 10px;
-}
-
-#points,
-#llpoints,
-#uclpoints,
-#wcpoints {
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 90%;
-  transform: translate(-50%);
-  font-family: "Orbitron", sans-serif;
-}
-
-
-#premendcont,
-#ligaendcont,
-#uclendcont,
-#wcendcont {
-  width: 60vw;
-  padding: 30px;
-  margin: 7vw;
-  height: auto;
-  background-image: url(bck.png);
-  border: 2px solid red;
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  top: 40%;
-  left: 45%;
-  transform: translate(-50%,-50%);
-}
-
-
-#rty,
-#larty,
-#uclrty,
-#wcrty{
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-
-
-  
+/*mobile responsive*/
+@media (max-width: 600px) {
+  #mvid {
+    display: block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 95%;
+    height: 90vh;
   }
+
+  #pvid {
+    display: none;
+  }
+
+  #cont h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 2%;
+  }
+
+
+
+  #cont a {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 80%;
+  }
+
+  .category-1 {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  #prem,
+  #laliga {
+    width: 40vw;
+    height: 20vh;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  .category-2 {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  #ucl,
+  #wc {
+    width: 40vw;
+    height: 20vh;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+
+  }
+
+  /*Modal*/
+
+  #modal-content {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 60vh;
+    padding: 20px;
+
+
+  }
+
+  #mstart {
+    width: 30vw;
+    font-size: 30px;
+    position: absolute;
+    top: 95%;
+  }
+
+  /*Main Content*/
+
+  #premierleague,
+  #laligas,
+  #ucls,
+  #wcs {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+
+
+  #quescont1,
+  #quescont2,
+  #quescont3,
+  #quescont4,
+  #quescont5,
+  #quescont6,
+  #quescont7,
+  #quescont8,
+  #quescont9,
+  #quescont10,
+  #laquescont1,
+  #laquescont2,
+  #laquescont3,
+  #laquescont4,
+  #laquescont5,
+  #laquescont6,
+  #laquescont7,
+  #laquescont8,
+  #laquescont9,
+  #laquescont10,
+  #uclquescont1,
+  #uclquescont2,
+  #uclquescont3,
+  #uclquescont4,
+  #uclquescont5,
+  #uclquescont6,
+  #uclquescont7,
+  #uclquescont8,
+  #uclquescont9,
+  #uclquescont10,
+  #wcquescont1,
+  #wcquescont2,
+  #wcquescont3,
+  #wcquescont4,
+  #wcquescont5,
+  #wcquescont6,
+  #wcquescont7,
+  #wcquescont8,
+  #wcquescont9,
+  #wcquescont10 {
+    /*  width: 100vw;
+    height: 20vh;
+    background-image: url(bck.png);
+    border: 2px solid red;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;*/
+    width: 95vw;
+    height: auto;
+    margin: 1;
+    padding: 0;
+    position: relative;
+    right: 6%;
+
+
+  }
+
+
+
+  #plques1,
+  #plques2,
+  #plques3,
+  #plques4,
+  #plques5,
+  #plques6,
+  #plques7,
+  #plques8,
+  #plques9,
+  #plques10,
+  #laques1,
+  #laques2,
+  #laques3,
+  #laques4,
+  #laques5,
+  #laques6,
+  #laques7,
+  #laques8,
+  #laques9,
+  #laques10,
+  #uclques1,
+  #uclques2,
+  #uclques3,
+  #uclques4,
+  #uclques5,
+  #uclques6,
+  #uclques7,
+  #uclques8,
+  #uclques9,
+  #uclques10,
+  #wcques1,
+  #wcques2,
+  #wcques3,
+  #wcques4,
+  #wcques5,
+  #wcques6,
+  #wcques7,
+  #wcques8,
+  #wcques9,
+  #wcques10 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .plans1 button,
+  .plans2 button,
+  .plans21 button,
+  .plans22 button,
+  .plans31 button,
+  .plans32 button,
+  .plans41 button,
+  .plans42 button,
+  .plans51 button,
+  .plans52 button,
+  .plans61 button,
+  .plans62 button,
+  .plans71 button,
+  .plans72 button,
+  .plans81 button,
+  .plans82 button,
+  .plans91 button,
+  .plans92 button,
+  .plans101 button,
+  .plans102 button,
+  #laopt1,
+  #laopt2,
+  #laopt3,
+  #laopt4,
+  #laopt21,
+  #laopt22,
+  #laopt23,
+  #laopt24,
+  #laopt31,
+  #laopt32,
+  #laopt33,
+  #laopt34,
+  #laopt41,
+  #laopt42,
+  #laopt43,
+  #laopt44,
+  #laopt51,
+  #laopt52,
+  #laopt53,
+  #laopt54,
+  #laopt61,
+  #laopt62,
+  #laopt63,
+  #laopt64,
+  #laopt71,
+  #laopt72,
+  #laopt73,
+  #laopt74,
+  #laopt81,
+  #laopt82,
+  #laopt83,
+  #laopt84,
+  #laopt91,
+  #laopt92,
+  #laopt93,
+  #laopt94,
+  #laopt101,
+  #laopt102,
+  #laopt103,
+  #laopt104,
+  .uclans1 button,
+  .uclans2 button,
+  .uclans21 button,
+  .uclans22 button,
+  .uclans31 button,
+  .uclans32 button,
+  .uclans41 button,
+  .uclans42 button,
+  .uclans51 button,
+  .uclans52 button,
+  .uclans61 button,
+  .uclans62 button,
+  .uclans71 button,
+  .uclans72 button,
+  .uclans81 button,
+  .uclans82 button,
+  .uclans91 button,
+  .uclans92 button,
+  .uclans101 button,
+  .uclans102 button,
+  .wcans1 button,
+  .wcans2 button,
+  .wcans21 button,
+  .wcans22 button,
+  .wcans31 button,
+  .wcans32 button,
+  .wcans41 button,
+  .wcans42 button,
+  .wcans51 button,
+  .wcans52 button,
+  .wcans61 button,
+  .wcans62 button,
+  .wcans71 button,
+  .wcans72 button,
+  .wcans81 button,
+  .wcans82 button,
+  .wcans91 button,
+  .wcans92 button,
+  .wcans101 button,
+  .wcans102 button {
+    font-size: 30px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid red;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 10px;
+    white-space: normal;
+    word-wrap: b
