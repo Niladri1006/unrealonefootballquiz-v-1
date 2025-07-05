@@ -12,19 +12,20 @@ let premierleague = document.getElementById("premierleague");
 let laligas = document.getElementById("laligas");
 let ucls = document.getElementById("ucls");
 let wcs = document.getElementById("wcs");
+let main = document.getElementById("main");
 
+start.addEventListener("click", () => {
 
-start.addEventListener("click",()=>{
-     
     start.style.display = "none";
     prem.style.display = "block";
     laliga.style.display = "block";
     ucl.style.display = "block";
     wc.style.display = "block";
+    main.style.display = "none";
 })
 
 
-prem.addEventListener("click",()=>{
+prem.addEventListener("click", () => {
     prem.style.display = "none";
     laliga.style.display = "none";
     ucl.style.display = "none";
@@ -33,12 +34,13 @@ prem.addEventListener("click",()=>{
     mvid.style.display = "none";
     modal.style.display = "block";
     premierleague.style.display = "block";
-   // document.body.style.backgroundImage = "url('epl bck ls.png')";
+    main.style.display = "none";
+    // document.body.style.backgroundImage = "url('epl bck ls.png')";
 });
 
 
-laliga.addEventListener("click",()=>{
-   prem.style.display = "none";
+laliga.addEventListener("click", () => {
+    prem.style.display = "none";
     laliga.style.display = "none";
     ucl.style.display = "none";
     wc.style.display = "none";
@@ -46,37 +48,39 @@ laliga.addEventListener("click",()=>{
     mvid.style.display = "none";
     modal.style.display = "block";
     laligas.style.display = "block";
+    main.style.display = "none";
     //document.body.style.backgroundImage = "url('laliga bck ls.png')";
 });
- 
 
-ucl.addEventListener("click",()=>{
+
+ucl.addEventListener("click", () => {
     prem.style.display = "none";
-     laliga.style.display = "none";
-     ucl.style.display = "none";
-     wc.style.display = "none";
-     pvid.style.display = "none";
-     mvid.style.display = "none";
-     modal.style.display = "block";
+    laliga.style.display = "none";
+    ucl.style.display = "none";
+    wc.style.display = "none";
+    pvid.style.display = "none";
+    mvid.style.display = "none";
+    modal.style.display = "block";
     ucls.style.display = "block";
-     //document.body.style.backgroundImage = "url('ucl bck ls.png')";
- });
+    main.style.display = "none";
+    //document.body.style.backgroundImage = "url('ucl bck ls.png')";
+});
 
- wc.addEventListener("click",()=>{
+wc.addEventListener("click", () => {
     prem.style.display = "none";
-     laliga.style.display = "none";
-     ucl.style.display = "none";
-     wc.style.display = "none";
-     pvid.style.display = "none";
-     mvid.style.display = "none";
-     modal.style.display = "block";
+    laliga.style.display = "none";
+    ucl.style.display = "none";
+    wc.style.display = "none";
+    pvid.style.display = "none";
+    mvid.style.display = "none";
+    modal.style.display = "block";
     wcs.style.display = "block";
-     //document.body.style.backgroundImage = "url('wc bck ls.png')";
- });
+    //document.body.style.backgroundImage = "url('wc bck ls.png')";
+});
 
-mstart.addEventListener("click",()=>{
+mstart.addEventListener("click", () => {
     modal.style.display = "none";
-   
+
 })
 
 
@@ -95,50 +99,50 @@ let prem1 = document.getElementById("prem1");
 let prem2 = document.getElementById("prem2");
 let prem3 = document.getElementById("prem3");
 
-opt1.addEventListener("click",()=>{
+opt1.addEventListener("click", () => {
     opt1.style.display = "none";
     opt2.style.display = "none";
     opt3.style.display = "none";
     opt4.style.display = "none";
     ans.innerHTML = "Wrong!!<br>Alan Shearer scored 260 goals, mainly for Blackburn and Newcastle.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next1.style.display = "block";
 })
 
-opt2.addEventListener("click",()=>{
+opt2.addEventListener("click", () => {
     opt1.style.display = "none";
     opt2.style.display = "none";
     opt3.style.display = "none";
     opt4.style.display = "none";
     ans.innerHTML = "Wrong!!<br>Alan Shearer scored 260 goals, mainly for Blackburn and Newcastle.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next1.style.display = "block";
 })
 
-opt3.addEventListener("click",()=>{
+opt3.addEventListener("click", () => {
     opt1.style.display = "none";
     opt2.style.display = "none";
     opt3.style.display = "none";
     opt4.style.display = "none";
     ans.innerHTML = "Correct!!<br>Alan Shearer scored 260 goals, mainly for Blackburn and Newcastle.";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next1.style.display = "block";
 })
 
-opt4.addEventListener("click",()=>{
+opt4.addEventListener("click", () => {
     opt1.style.display = "none";
     opt2.style.display = "none";
     opt3.style.display = "none";
     opt4.style.display = "none";
     ans.innerHTML = "Wrong!!<br>Alan Shearer scored 260 goals, mainly for Blackburn and Newcastle.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next1.style.display = "block";
 })
 
-next1.addEventListener("click",()=>{
-prem1.style.display = "none";
-prem2.style.display = "block";
+next1.addEventListener("click", () => {
+    prem1.style.display = "none";
+    prem2.style.display = "block";
 })
 
 
@@ -153,51 +157,51 @@ let plind2 = document.getElementById("plind2");
 let ans2 = document.getElementById("ans2");
 let next2 = document.getElementById("next2");
 
-opt21.addEventListener("click",()=>{
+opt21.addEventListener("click", () => {
     opt21.style.display = "none";
     opt22.style.display = "none";
     opt23.style.display = "none";
     opt24.style.display = "none";
     ans2.innerHTML = "Wrong!!<br> Jack Grealish famous for his dribbling and hair!";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next2.style.display = "block";
 })
 
-opt22.addEventListener("click",()=>{
+opt22.addEventListener("click", () => {
     opt21.style.display = "none";
     opt22.style.display = "none";
     opt23.style.display = "none";
     opt24.style.display = "none";
     ans2.innerHTML = "Correct!!<br> Jack Grealish famous for his dribbling and hair!";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next2.style.display = "block";
 })
 
-opt23.addEventListener("click",()=>{
+opt23.addEventListener("click", () => {
     opt21.style.display = "none";
     opt22.style.display = "none";
     opt23.style.display = "none";
     opt24.style.display = "none";
     ans2.innerHTML = "Wrong!!<br> Jack Grealish famous for his dribbling and hair!";
-    
-    points.innerHTML = "Points: "+score;
+
+    points.innerHTML = "Points: " + score;
     next2.style.display = "block";
 })
 
-opt24.addEventListener("click",()=>{
+opt24.addEventListener("click", () => {
     opt21.style.display = "none";
     opt22.style.display = "none";
     opt23.style.display = "none";
     opt24.style.display = "none";
     ans2.innerHTML = "Wrong!!<br> Jack Grealish famous for his dribbling and hair!";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next2.style.display = "block";
 })
 
-next2.addEventListener("click",()=>{
+next2.addEventListener("click", () => {
     prem2.style.display = "none";
-   prem3.style.display = "block";
+    prem3.style.display = "block";
 })
 
 
@@ -212,51 +216,51 @@ let plind3 = document.getElementById("plind3");
 let ans3 = document.getElementById("ans3");
 let next3 = document.getElementById("next3");
 
-opt31.addEventListener("click",()=>{
+opt31.addEventListener("click", () => {
     opt31.style.display = "none";
     opt32.style.display = "none";
     opt33.style.display = "none";
     opt34.style.display = "none";
     ans3.innerHTML = "Wrong!!<br>Arsenal named after their origins as an armament factory team.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next3.style.display = "block";
 })
 
-opt32.addEventListener("click",()=>{
+opt32.addEventListener("click", () => {
     opt31.style.display = "none";
     opt32.style.display = "none";
     opt33.style.display = "none";
     opt34.style.display = "none";
     ans3.innerHTML = "Wrong!!<br>Arsenal named after their origins as an armament factory team.";
-    
-    points.innerHTML = "Points: "+score;
+
+    points.innerHTML = "Points: " + score;
     next3.style.display = "block";
 })
 
-opt33.addEventListener("click",()=>{
+opt33.addEventListener("click", () => {
     opt31.style.display = "none";
     opt32.style.display = "none";
     opt33.style.display = "none";
     opt34.style.display = "none";
     score++;
     ans3.innerHTML = "Correct!!<br>Arsenal named after their origins as an armament factory team.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next3.style.display = "block";
 })
 
-opt34.addEventListener("click",()=>{
+opt34.addEventListener("click", () => {
     opt31.style.display = "none";
     opt32.style.display = "none";
     opt33.style.display = "none";
     opt34.style.display = "none";
     ans3.innerHTML = "Wrong!!<br>Arsenal named after their origins as an armament factory team.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next3.style.display = "block";
 })
 
-next3.addEventListener("click",()=>{
+next3.addEventListener("click", () => {
     prem3.style.display = "none";
-   prem4.style.display = "block";
+    prem4.style.display = "block";
 })
 
 
@@ -276,44 +280,44 @@ let opt44 = document.getElementById("opt44");
 let ans4 = document.getElementById("ans4");
 let next4 = document.getElementById("next4");
 
-opt41.addEventListener("click",()=>{
+opt41.addEventListener("click", () => {
     opt41.style.display = "none";
     opt42.style.display = "none";
     opt43.style.display = "none";
     opt44.style.display = "none";
     ans4.innerHTML = "Correct!!<br>Arsène Wenger led them unbeaten in 2003–04.";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next4.style.display = "block";
 })
-opt42.addEventListener("click",()=>{
+opt42.addEventListener("click", () => {
     opt41.style.display = "none";
     opt42.style.display = "none";
     opt43.style.display = "none";
     opt44.style.display = "none";
     ans4.innerHTML = "Wrong!!<br>Arsène Wenger led them unbeaten in 2003–04.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next4.style.display = "block";
 })
-opt43.addEventListener("click",()=>{
+opt43.addEventListener("click", () => {
     opt41.style.display = "none";
     opt42.style.display = "none";
     opt43.style.display = "none";
     opt44.style.display = "none";
     ans4.innerHTML = "Wrong!!<br>Arsène Wenger led them unbeaten in 2003–04.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next4.style.display = "block";
 })
-opt44.addEventListener("click",()=>{
+opt44.addEventListener("click", () => {
     opt41.style.display = "none";
     opt42.style.display = "none";
     opt43.style.display = "none";
     opt44.style.display = "none";
     ans4.innerHTML = "Wrong!!<br>Arsène Wenger led them unbeaten in 2003–04.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next4.style.display = "block";
 })
-next4.addEventListener("click",()=>{
+next4.addEventListener("click", () => {
     prem4.style.display = "none";
     prem5.style.display = "block";
 })
@@ -326,45 +330,45 @@ let opt54 = document.getElementById("opt54");
 let ans5 = document.getElementById("ans5");
 let next5 = document.getElementById("next5");
 
-opt51.addEventListener("click",()=>{
+opt51.addEventListener("click", () => {
     opt51.style.display = "none";
     opt52.style.display = "none";
     opt53.style.display = "none";
     opt54.style.display = "none";
     ans5.innerHTML = "Wrong!!<br>Brighton Refers to their coastal location.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next5.style.display = "block";
 })
-opt52.addEventListener("click",()=>{
+opt52.addEventListener("click", () => {
     opt51.style.display = "none";
     opt52.style.display = "none";
     opt53.style.display = "none";
     opt54.style.display = "none";
-    ans5.innerHTML =  "Wrong!!<br>Brighton Refers to their coastal location.";
-    
-    points.innerHTML = "Points: "+score;
+    ans5.innerHTML = "Wrong!!<br>Brighton Refers to their coastal location.";
+
+    points.innerHTML = "Points: " + score;
     next5.style.display = "block";
 })
-opt53.addEventListener("click",()=>{
+opt53.addEventListener("click", () => {
     opt51.style.display = "none";
     opt52.style.display = "none";
     opt53.style.display = "none";
     opt54.style.display = "none";
     score++;
     ans5.innerHTML = "Correct!!<br>Brighton Refers to their coastal location.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next5.style.display = "block";
 })
-opt54.addEventListener("click",()=>{
+opt54.addEventListener("click", () => {
     opt51.style.display = "none";
     opt52.style.display = "none";
     opt53.style.display = "none";
     opt54.style.display = "none";
-    ans5.innerHTML =  "Wrong!!<br>Brighton Refers to their coastal location.";
-    points.innerHTML = "Points: "+score;
+    ans5.innerHTML = "Wrong!!<br>Brighton Refers to their coastal location.";
+    points.innerHTML = "Points: " + score;
     next5.style.display = "block";
 })
-next5.addEventListener("click",()=>{
+next5.addEventListener("click", () => {
     prem5.style.display = "none";
     prem6.style.display = "block";
 })
@@ -377,44 +381,44 @@ let opt64 = document.getElementById("opt64");
 let ans6 = document.getElementById("ans6");
 let next6 = document.getElementById("next6");
 
-opt61.addEventListener("click",()=>{
+opt61.addEventListener("click", () => {
     opt61.style.display = "none";
     opt62.style.display = "none";
     opt63.style.display = "none";
     opt64.style.display = "none";
     ans6.innerHTML = "Wrong!!<br>Petr Čech holds the record with 202 clean sheets.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next6.style.display = "block";
 })
-opt62.addEventListener("click",()=>{
+opt62.addEventListener("click", () => {
     opt61.style.display = "none";
     opt62.style.display = "none";
     opt63.style.display = "none";
     opt64.style.display = "none";
     ans6.innerHTML = "Correct!!<br>Petr Čech holds the record with 202 clean sheets.";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next6.style.display = "block";
 })
-opt63.addEventListener("click",()=>{
+opt63.addEventListener("click", () => {
     opt61.style.display = "none";
     opt62.style.display = "none";
     opt63.style.display = "none";
     opt64.style.display = "none";
     ans6.innerHTML = "Wrong!!<br>Petr Čech holds the record with 202 clean sheets.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next6.style.display = "block";
 })
-opt64.addEventListener("click",()=>{
+opt64.addEventListener("click", () => {
     opt61.style.display = "none";
     opt62.style.display = "none";
     opt63.style.display = "none";
     opt64.style.display = "none";
     ans6.innerHTML = "Wrong!!<br>Petr Čech holds the record with 202 clean sheets..";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next6.style.display = "block";
 })
-next6.addEventListener("click",()=>{
+next6.addEventListener("click", () => {
     prem6.style.display = "none";
     prem7.style.display = "block";
 })
@@ -427,45 +431,45 @@ let opt74 = document.getElementById("opt74");
 let ans7 = document.getElementById("ans7");
 let next7 = document.getElementById("next7");
 
-opt71.addEventListener("click",()=>{
+opt71.addEventListener("click", () => {
     opt71.style.display = "none";
     opt72.style.display = "none";
     opt73.style.display = "none";
     opt74.style.display = "none";
     ans7.innerHTML = "Wrong!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next7.style.display = "block";
 })
-opt72.addEventListener("click",()=>{
+opt72.addEventListener("click", () => {
     opt71.style.display = "none";
     opt72.style.display = "none";
     opt73.style.display = "none";
     opt74.style.display = "none";
-    ans7.innerHTML =  "Wrong!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
-    
-    points.innerHTML = "Points: "+score;
+    ans7.innerHTML = "Wrong!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
+
+    points.innerHTML = "Points: " + score;
     next7.style.display = "block";
 })
-opt73.addEventListener("click",()=>{
+opt73.addEventListener("click", () => {
     opt71.style.display = "none";
     opt72.style.display = "none";
     opt73.style.display = "none";
     opt74.style.display = "none";
-    ans7.innerHTML =  "Wrong!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
-    points.innerHTML = "Points: "+score;
+    ans7.innerHTML = "Wrong!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
+    points.innerHTML = "Points: " + score;
     next7.style.display = "block";
 })
-opt74.addEventListener("click",()=>{
+opt74.addEventListener("click", () => {
     opt71.style.display = "none";
     opt72.style.display = "none";
     opt73.style.display = "none";
     opt74.style.display = "none";
     score++;
-    ans7.innerHTML =  "Correct!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
-    points.innerHTML = "Points: "+score;
+    ans7.innerHTML = "Correct!!<br>Craig Bellamy Scored for: Coventry, Newcastle, Blackburn, Liverpool, West Ham, Man City, Cardiff.";
+    points.innerHTML = "Points: " + score;
     next7.style.display = "block";
 })
-next7.addEventListener("click",()=>{
+next7.addEventListener("click", () => {
     prem7.style.display = "none";
     prem8.style.display = "block";
 })
@@ -478,44 +482,44 @@ let opt84 = document.getElementById("opt84");
 let ans8 = document.getElementById("ans8");
 let next8 = document.getElementById("next8");
 
-opt81.addEventListener("click",()=>{
+opt81.addEventListener("click", () => {
     opt81.style.display = "none";
     opt82.style.display = "none";
     opt83.style.display = "none";
     opt84.style.display = "none";
     ans8.innerHTML = "Wrong!!<br>Ryan Giggs is the all-time Premier League assist leader.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next8.style.display = "block";
 })
-opt82.addEventListener("click",()=>{
+opt82.addEventListener("click", () => {
     opt81.style.display = "none";
     opt82.style.display = "none";
     opt83.style.display = "none";
     opt84.style.display = "none";
     ans8.innerHTML = "Correct!!<br>Ryan Giggs is the all-time Premier League assist leader.";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next8.style.display = "block";
 })
-opt83.addEventListener("click",()=>{
+opt83.addEventListener("click", () => {
     opt81.style.display = "none";
     opt82.style.display = "none";
     opt83.style.display = "none";
     opt84.style.display = "none";
     ans8.innerHTML = "Wrong!!<br>Ryan Giggs is the all-time Premier League assist leader.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next8.style.display = "block";
 })
-opt84.addEventListener("click",()=>{
+opt84.addEventListener("click", () => {
     opt81.style.display = "none";
     opt82.style.display = "none";
     opt83.style.display = "none";
     opt84.style.display = "none";
     ans8.innerHTML = "Wrong!!<br>Ryan Giggs is the all-time Premier League assist leader.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next8.style.display = "block";
 })
-next8.addEventListener("click",()=>{
+next8.addEventListener("click", () => {
     prem8.style.display = "none";
     prem9.style.display = "block";
 })
@@ -528,44 +532,44 @@ let opt94 = document.getElementById("opt94");
 let ans9 = document.getElementById("ans9");
 let next9 = document.getElementById("next9");
 
-opt91.addEventListener("click",()=>{
+opt91.addEventListener("click", () => {
     opt91.style.display = "none";
     opt92.style.display = "none";
     opt93.style.display = "none";
     opt94.style.display = "none";
     ans9.innerHTML = "Wrong!!<br> Matt Le Tissier Scored one with left, right, and header early in PL era.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next9.style.display = "block";
 })
-opt92.addEventListener("click",()=>{
+opt92.addEventListener("click", () => {
     opt91.style.display = "none";
     opt92.style.display = "none";
     opt93.style.display = "none";
     opt94.style.display = "none";
-    ans9.innerHTML ="Wrong!!<br> Matt Le Tissier Scored one with left, right, and header early in PL era.";
-    points.innerHTML = "Points: "+score;
+    ans9.innerHTML = "Wrong!!<br> Matt Le Tissier Scored one with left, right, and header early in PL era.";
+    points.innerHTML = "Points: " + score;
     next9.style.display = "block";
 })
-opt93.addEventListener("click",()=>{
+opt93.addEventListener("click", () => {
     opt91.style.display = "none";
     opt92.style.display = "none";
     opt93.style.display = "none";
     opt94.style.display = "none";
     ans9.innerHTML = "Correct!!<br>Matt Le Tissier Scored one with left, right, and header early in PL era.";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next9.style.display = "block";
 })
-opt94.addEventListener("click",()=>{
+opt94.addEventListener("click", () => {
     opt91.style.display = "none";
     opt92.style.display = "none";
     opt93.style.display = "none";
     opt94.style.display = "none";
     ans9.innerHTML = "Wrong!!<br> Matt Le Tissier Scored one with left, right, and header early in PL era.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next9.style.display = "block";
 })
-next9.addEventListener("click",()=>{
+next9.addEventListener("click", () => {
     prem9.style.display = "none";
     prem10.style.display = "block";
 })
@@ -578,41 +582,41 @@ let opt104 = document.getElementById("opt104");
 let ans10 = document.getElementById("ans10");
 let next10 = document.getElementById("next10");
 
-opt101.addEventListener("click",()=>{
+opt101.addEventListener("click", () => {
     opt101.style.display = "none";
     opt102.style.display = "none";
     opt103.style.display = "none";
     opt104.style.display = "none";
     ans10.innerHTML = "Correct!!<br>Aleksandar Mitrović Did it for Fulham — goal, assist, red.";
     score++;
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next10.style.display = "block";
 })
-opt102.addEventListener("click",()=>{
+opt102.addEventListener("click", () => {
     opt101.style.display = "none";
     opt102.style.display = "none";
     opt103.style.display = "none";
     opt104.style.display = "none";
     ans10.innerHTML = "Wrong!!<br>Aleksandar Mitrović Did it for Fulham — goal, assist, red.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
     next10.style.display = "block";
 })
-opt103.addEventListener("click",()=>{
-    opt101.style.display = "none";
-    opt102.style.display = "none";
-    opt103.style.display = "none";
-    opt104.style.display = "none";
-    ans10.innerHTML ="Wrong!!<br>Aleksandar Mitrović Did it for Fulham — goal, assist, red.";
-    points.innerHTML = "Points: "+score;
-    next10.style.display = "block";
-})
-opt104.addEventListener("click",()=>{
+opt103.addEventListener("click", () => {
     opt101.style.display = "none";
     opt102.style.display = "none";
     opt103.style.display = "none";
     opt104.style.display = "none";
     ans10.innerHTML = "Wrong!!<br>Aleksandar Mitrović Did it for Fulham — goal, assist, red.";
-    points.innerHTML = "Points: "+score;
+    points.innerHTML = "Points: " + score;
+    next10.style.display = "block";
+})
+opt104.addEventListener("click", () => {
+    opt101.style.display = "none";
+    opt102.style.display = "none";
+    opt103.style.display = "none";
+    opt104.style.display = "none";
+    ans10.innerHTML = "Wrong!!<br>Aleksandar Mitrović Did it for Fulham — goal, assist, red.";
+    points.innerHTML = "Points: " + score;
     next10.style.display = "block";
 })
 
@@ -624,28 +628,28 @@ let rty = document.getElementById("rty");
 
 
 
-next10.addEventListener("click",()=>{
+next10.addEventListener("click", () => {
     prem10.style.display = "none";
     rty.style.display = "block";
     premend.style.display = "block";
-res.innerHTML = "Your final score is: "+score;
+    res.innerHTML = "Your final score is: " + score;
 
-if(score >= 7){
-    comp.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
-    comp.style.display = "block";
-  }
-  else if(score >= 5){ // Corrected condition: covers 5 <= i < 7
-    comp.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
-    comp.style.display = "block";
-  }
-  else{ // This now correctly covers i < 5
-    comp.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
-    comp.style.display = "block";
-  }
+    if (score >= 7) {
+        comp.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
+        comp.style.display = "block";
+    }
+    else if (score >= 5) { // Corrected condition: covers 5 <= i < 7
+        comp.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
+        comp.style.display = "block";
+    }
+    else { // This now correctly covers i < 5
+        comp.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
+        comp.style.display = "block";
+    }
 
-rty.addEventListener("click",()=>{
-  window.location.reload();
-})
+    rty.addEventListener("click", () => {
+        window.location.reload();
+    })
 
 
 })
@@ -664,45 +668,45 @@ let lanext1 = document.getElementById("lanext1");
 let liga1 = document.getElementById("liga1");
 let liga2 = document.getElementById("liga2");
 
-laopt1.addEventListener("click",()=>{
-  
+laopt1.addEventListener("click", () => {
+
     laopt1.style.display = "none";
     laopt2.style.display = "none";
     laopt3.style.display = "none";
     laopt4.style.display = "none";
     laans.innerHTML = "Wrong!!<br>Correct answer is Lionel Messi.";
-    llpoints.innerHTML = "Points: "+lascore;
-      lanext1.style.display = "block";
-});
-laopt2.addEventListener("click",()=>{
-    laopt1.style.display = "none";
-    laopt2.style.display = "none";
-    laopt3.style.display = "none";
-    laopt4.style.display = "none";
-    laans.innerHTML = "Wrong!!<br>Correct answer is Lionel Messi.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext1.style.display = "block";
 });
-laopt3.addEventListener("click",()=>{
+laopt2.addEventListener("click", () => {
+    laopt1.style.display = "none";
+    laopt2.style.display = "none";
+    laopt3.style.display = "none";
+    laopt4.style.display = "none";
+    laans.innerHTML = "Wrong!!<br>Correct answer is Lionel Messi.";
+    llpoints.innerHTML = "Points: " + lascore;
+    lanext1.style.display = "block";
+});
+laopt3.addEventListener("click", () => {
     laopt1.style.display = "none";
     laopt2.style.display = "none";
     laopt3.style.display = "none";
     laopt4.style.display = "none";
     laans.innerHTML = "Correct!!<br>Lionel Messi is the all-time top scorer.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext1.style.display = "block";
 });
-laopt4.addEventListener("click",()=>{
+laopt4.addEventListener("click", () => {
     laopt1.style.display = "none";
     laopt2.style.display = "none";
     laopt3.style.display = "none";
     laopt4.style.display = "none";
     laans.innerHTML = "Wrong!!<br>Correct answer is Lionel Messi.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext1.style.display = "block";
 });
-lanext1.addEventListener("click",()=>{
+lanext1.addEventListener("click", () => {
     liga1.style.display = "none";
     liga2.style.display = "block";
 });
@@ -716,44 +720,44 @@ let laans2 = document.getElementById("laans2");
 let lanext2 = document.getElementById("lanext2");
 let liga3 = document.getElementById("liga3");
 
-laopt21.addEventListener("click",()=>{
+laopt21.addEventListener("click", () => {
     laopt21.style.display = "none";
     laopt22.style.display = "none";
     laopt23.style.display = "none";
     laopt24.style.display = "none";
     laans2.innerHTML = "Wrong!!<br>Correct answer is Real Madrid.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext2.style.display = "block";
 });
-laopt22.addEventListener("click",()=>{
+laopt22.addEventListener("click", () => {
     laopt21.style.display = "none";
     laopt22.style.display = "none";
     laopt23.style.display = "none";
     laopt24.style.display = "none";
     laans2.innerHTML = "Wrong!!<br>Correct answer is Real Madrid.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext2.style.display = "block";
 });
-laopt23.addEventListener("click",()=>{
+laopt23.addEventListener("click", () => {
     laopt21.style.display = "none";
     laopt22.style.display = "none";
     laopt23.style.display = "none";
     laopt24.style.display = "none";
     laans2.innerHTML = "Correct!!<br>Real Madrid has the most La Liga titles.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext2.style.display = "block";
 });
-laopt24.addEventListener("click",()=>{
+laopt24.addEventListener("click", () => {
     laopt21.style.display = "none";
     laopt22.style.display = "none";
     laopt23.style.display = "none";
     laopt24.style.display = "none";
     laans2.innerHTML = "Wrong!!<br>Correct answer is Real Madrid.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext2.style.display = "block";
 });
-lanext2.addEventListener("click",()=>{
+lanext2.addEventListener("click", () => {
     liga2.style.display = "none";
     liga3.style.display = "block";
 });
@@ -767,44 +771,44 @@ let laans3 = document.getElementById("laans3");
 let lanext3 = document.getElementById("lanext3");
 let liga4 = document.getElementById("liga4");
 
-laopt31.addEventListener("click",()=>{
+laopt31.addEventListener("click", () => {
     laopt31.style.display = "none";
     laopt32.style.display = "none";
     laopt33.style.display = "none";
     laopt34.style.display = "none";
     laans3.innerHTML = "Correct!!<br>Fernando Torres is 'El Niño'.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext3.style.display = "block";
 });
-laopt32.addEventListener("click",()=>{
+laopt32.addEventListener("click", () => {
     laopt31.style.display = "none";
     laopt32.style.display = "none";
     laopt33.style.display = "none";
     laopt34.style.display = "none";
     laans3.innerHTML = "Wrong!!<br>Correct answer is Fernando Torres.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext3.style.display = "block";
 });
-laopt33.addEventListener("click",()=>{
+laopt33.addEventListener("click", () => {
     laopt31.style.display = "none";
     laopt32.style.display = "none";
     laopt33.style.display = "none";
     laopt34.style.display = "none";
     laans3.innerHTML = "Wrong!!<br>Correct answer is Fernando Torres.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext3.style.display = "block";
 });
-laopt34.addEventListener("click",()=>{
+laopt34.addEventListener("click", () => {
     laopt31.style.display = "none";
     laopt32.style.display = "none";
     laopt33.style.display = "none";
     laopt34.style.display = "none";
     laans3.innerHTML = "Wrong!!<br>Correct answer is Fernando Torres.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext3.style.display = "block";
 });
-lanext3.addEventListener("click",()=>{
+lanext3.addEventListener("click", () => {
     liga3.style.display = "none";
     liga4.style.display = "block";
 });
@@ -818,44 +822,44 @@ let laans4 = document.getElementById("laans4");
 let lanext4 = document.getElementById("lanext4");
 let liga5 = document.getElementById("liga5");
 
-laopt41.addEventListener("click",()=>{
+laopt41.addEventListener("click", () => {
     laopt41.style.display = "none";
     laopt42.style.display = "none";
     laopt43.style.display = "none";
     laopt44.style.display = "none";
     laans4.innerHTML = "Correct!!<br>Athletic Bilbao went unbeaten in 1929-30.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext4.style.display = "block";
 });
-laopt42.addEventListener("click",()=>{
+laopt42.addEventListener("click", () => {
     laopt41.style.display = "none";
     laopt42.style.display = "none";
     laopt43.style.display = "none";
     laopt44.style.display = "none";
     laans4.innerHTML = "Wrong!!<br>Correct answer is Athletic Bilbao.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext4.style.display = "block";
 });
-laopt43.addEventListener("click",()=>{
+laopt43.addEventListener("click", () => {
     laopt41.style.display = "none";
     laopt42.style.display = "none";
     laopt43.style.display = "none";
     laopt44.style.display = "none";
     laans4.innerHTML = "Wrong!!<br>Correct answer is Athletic Bilbao.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext4.style.display = "block";
 });
-laopt44.addEventListener("click",()=>{
+laopt44.addEventListener("click", () => {
     laopt41.style.display = "none";
     laopt42.style.display = "none";
     laopt43.style.display = "none";
     laopt44.style.display = "none";
     laans4.innerHTML = "Wrong!!<br>Correct answer is Athletic Bilbao.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext4.style.display = "block";
 });
-lanext4.addEventListener("click",()=>{
+lanext4.addEventListener("click", () => {
     liga4.style.display = "none";
     liga5.style.display = "block";
 });
@@ -869,44 +873,44 @@ let laans5 = document.getElementById("laans5");
 let lanext5 = document.getElementById("lanext5");
 let liga6 = document.getElementById("liga6");
 
-laopt51.addEventListener("click",()=>{
+laopt51.addEventListener("click", () => {
     laopt51.style.display = "none";
     laopt52.style.display = "none";
     laopt53.style.display = "none";
     laopt54.style.display = "none";
     laans5.innerHTML = "Wrong!!<br>Correct answer is Kevin Gameiro.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext5.style.display = "block";
 });
-laopt52.addEventListener("click",()=>{
+laopt52.addEventListener("click", () => {
     laopt51.style.display = "none";
     laopt52.style.display = "none";
     laopt53.style.display = "none";
     laopt54.style.display = "none";
     laans5.innerHTML = "Wrong!!<br>Correct answer is Kevin Gameiro.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext5.style.display = "block";
 });
-laopt53.addEventListener("click",()=>{
+laopt53.addEventListener("click", () => {
     laopt51.style.display = "none";
     laopt52.style.display = "none";
     laopt53.style.display = "none";
     laopt54.style.display = "none";
     laans5.innerHTML = "Correct!!<br>Kevin Gameiro scored the fastest hat-trick.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext5.style.display = "block";
 });
-laopt54.addEventListener("click",()=>{
+laopt54.addEventListener("click", () => {
     laopt51.style.display = "none";
     laopt52.style.display = "none";
     laopt53.style.display = "none";
     laopt54.style.display = "none";
     laans5.innerHTML = "Wrong!!<br>Correct answer is Kevin Gameiro.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext5.style.display = "block";
 });
-lanext5.addEventListener("click",()=>{
+lanext5.addEventListener("click", () => {
     liga5.style.display = "none";
     liga6.style.display = "block";
 });
@@ -920,44 +924,44 @@ let laans6 = document.getElementById("laans6");
 let lanext6 = document.getElementById("lanext6");
 let liga7 = document.getElementById("liga7");
 
-laopt61.addEventListener("click",()=>{
+laopt61.addEventListener("click", () => {
     laopt61.style.display = "none";
     laopt62.style.display = "none";
     laopt63.style.display = "none";
     laopt64.style.display = "none";
     laans6.innerHTML = "Correct!!<br>Iker Casillas has the most clean sheets.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext6.style.display = "block";
 });
-laopt62.addEventListener("click",()=>{
+laopt62.addEventListener("click", () => {
     laopt61.style.display = "none";
     laopt62.style.display = "none";
     laopt63.style.display = "none";
     laopt64.style.display = "none";
     laans6.innerHTML = "Wrong!!<br>Correct answer is Iker Casillas.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext6.style.display = "block";
 });
-laopt63.addEventListener("click",()=>{
+laopt63.addEventListener("click", () => {
     laopt61.style.display = "none";
     laopt62.style.display = "none";
     laopt63.style.display = "none";
     laopt64.style.display = "none";
     laans6.innerHTML = "Wrong!!<br>Correct answer is Iker Casillas.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext6.style.display = "block";
 });
-laopt64.addEventListener("click",()=>{
+laopt64.addEventListener("click", () => {
     laopt61.style.display = "none";
     laopt62.style.display = "none";
     laopt63.style.display = "none";
     laopt64.style.display = "none";
     laans6.innerHTML = "Wrong!!<br>Correct answer is Iker Casillas.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext6.style.display = "block";
 });
-lanext6.addEventListener("click",()=>{
+lanext6.addEventListener("click", () => {
     liga6.style.display = "none";
     liga7.style.display = "block";
 });
@@ -971,44 +975,44 @@ let laans7 = document.getElementById("laans7");
 let lanext7 = document.getElementById("lanext7");
 let liga8 = document.getElementById("liga8");
 
-laopt71.addEventListener("click",()=>{
+laopt71.addEventListener("click", () => {
     laopt71.style.display = "none";
     laopt72.style.display = "none";
     laopt73.style.display = "none";
     laopt74.style.display = "none";
     laans7.innerHTML = "Wrong!!<br>Correct answer is Hugo Sánchez.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext7.style.display = "block";
 });
-laopt72.addEventListener("click",()=>{
+laopt72.addEventListener("click", () => {
     laopt71.style.display = "none";
     laopt72.style.display = "none";
     laopt73.style.display = "none";
     laopt74.style.display = "none";
     laans7.innerHTML = "Correct!!<br>Hugo Sánchez was the first non-Spanish Pichichi winner.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext7.style.display = "block";
 });
-laopt73.addEventListener("click",()=>{
+laopt73.addEventListener("click", () => {
     laopt71.style.display = "none";
     laopt72.style.display = "none";
     laopt73.style.display = "none";
     laopt74.style.display = "none";
     laans7.innerHTML = "Wrong!!<br>Correct answer is Hugo Sánchez.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext7.style.display = "block";
 });
-laopt74.addEventListener("click",()=>{
+laopt74.addEventListener("click", () => {
     laopt71.style.display = "none";
     laopt72.style.display = "none";
     laopt73.style.display = "none";
     laopt74.style.display = "none";
     laans7.innerHTML = "Wrong!!<br>Correct answer is Hugo Sánchez.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext7.style.display = "block";
 });
-lanext7.addEventListener("click",()=>{
+lanext7.addEventListener("click", () => {
     liga7.style.display = "none";
     liga8.style.display = "block";
 });
@@ -1022,44 +1026,44 @@ let laans8 = document.getElementById("laans8");
 let lanext8 = document.getElementById("lanext8");
 let liga9 = document.getElementById("liga9");
 
-laopt81.addEventListener("click",()=>{
+laopt81.addEventListener("click", () => {
     laopt81.style.display = "none";
     laopt82.style.display = "none";
     laopt83.style.display = "none";
     laopt84.style.display = "none";
     laans8.innerHTML = "Correct!!<br>Athletic Bilbao has never been relegated.";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext8.style.display = "block";
 });
-laopt82.addEventListener("click",()=>{
+laopt82.addEventListener("click", () => {
     laopt81.style.display = "none";
     laopt82.style.display = "none";
     laopt83.style.display = "none";
     laopt84.style.display = "none";
     laans8.innerHTML = "Wrong!!<br>Correct answer is Athletic Bilbao.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext8.style.display = "block";
 });
-laopt83.addEventListener("click",()=>{
+laopt83.addEventListener("click", () => {
     laopt81.style.display = "none";
     laopt82.style.display = "none";
     laopt83.style.display = "none";
     laopt84.style.display = "none";
     laans8.innerHTML = "Wrong!!<br>Correct answer is Athletic Bilbao.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext8.style.display = "block";
 });
-laopt84.addEventListener("click",()=>{
+laopt84.addEventListener("click", () => {
     laopt81.style.display = "none";
     laopt82.style.display = "none";
     laopt83.style.display = "none";
     laopt84.style.display = "none";
     laans8.innerHTML = "Wrong!!<br>Correct answer is Athletic Bilbao.";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext8.style.display = "block";
 });
-lanext8.addEventListener("click",()=>{
+lanext8.addEventListener("click", () => {
     liga8.style.display = "none";
     liga9.style.display = "block";
 });
@@ -1073,44 +1077,44 @@ let laans9 = document.getElementById("laans9");
 let lanext9 = document.getElementById("lanext9");
 let liga10 = document.getElementById("liga10");
 
-laopt91.addEventListener("click",()=>{
+laopt91.addEventListener("click", () => {
     laopt91.style.display = "none";
     laopt92.style.display = "none";
     laopt93.style.display = "none";
     laopt94.style.display = "none";
     laans9.innerHTML = "Wrong!!<br>Lionel Messi scored against all the laliga teams";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext9.style.display = "block";
 });
-laopt92.addEventListener("click",()=>{
+laopt92.addEventListener("click", () => {
     laopt91.style.display = "none";
     laopt92.style.display = "none";
     laopt93.style.display = "none";
     laopt94.style.display = "none";
     laans9.innerHTML = "Wrong!!<br>Lionel Messi scored against all the laliga teams";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext9.style.display = "block";
 });
-laopt93.addEventListener("click",()=>{
+laopt93.addEventListener("click", () => {
     laopt91.style.display = "none";
     laopt92.style.display = "none";
     laopt93.style.display = "none";
     laopt94.style.display = "none";
     laans9.innerHTML = "Correct!!<br>Lionel Messi scored against all the laliga teams";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext9.style.display = "block";
 });
-laopt94.addEventListener("click",()=>{
+laopt94.addEventListener("click", () => {
     laopt91.style.display = "none";
     laopt92.style.display = "none";
     laopt93.style.display = "none";
     laopt94.style.display = "none";
     laans9.innerHTML = "Wrong!!<br>Lionel Messi scored against all the laliga teams";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext9.style.display = "block";
 });
-lanext9.addEventListener("click",()=>{
+lanext9.addEventListener("click", () => {
     liga9.style.display = "none";
     liga10.style.display = "block";
 });
@@ -1127,61 +1131,61 @@ let lares = document.getElementById("lares");
 let lacom = document.getElementById("lacom");
 let larty = document.getElementById("larty");
 
-laopt101.addEventListener("click",()=>{
+laopt101.addEventListener("click", () => {
     laopt101.style.display = "none";
     laopt102.style.display = "none";
     laopt103.style.display = "none";
     laopt104.style.display = "none";
     laans10.innerHTML = "Correct!!<br>Lamine Yamal is the youngest to score in El Clásico";
     lascore++;
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext10.style.display = "block";
 });
-laopt102.addEventListener("click",()=>{
+laopt102.addEventListener("click", () => {
     laopt101.style.display = "none";
     laopt102.style.display = "none";
     laopt103.style.display = "none";
     laopt104.style.display = "none";
     laans10.innerHTML = "Wrong!!<br>Lamine Yamal is the youngest to score in El Clásico";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext10.style.display = "block";
 });
-laopt103.addEventListener("click",()=>{
+laopt103.addEventListener("click", () => {
     laopt101.style.display = "none";
     laopt102.style.display = "none";
     laopt103.style.display = "none";
     laopt104.style.display = "none";
     laans10.innerHTML = "Wrong!!<br>Lamine Yamal is the youngest to score in El Clásico";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext10.style.display = "block";
 });
-laopt104.addEventListener("click",()=>{
+laopt104.addEventListener("click", () => {
     laopt101.style.display = "none";
     laopt102.style.display = "none";
     laopt103.style.display = "none";
     laopt104.style.display = "none";
     laans10.innerHTML = "Wrong!!<br>Lamine Yamal is the youngest to score in El Clásico";
-    llpoints.innerHTML = "Points: "+lascore;
+    llpoints.innerHTML = "Points: " + lascore;
     lanext10.style.display = "block";
 });
-lanext10.addEventListener("click",()=>{
+lanext10.addEventListener("click", () => {
     liga10.style.display = "none";
     larty.style.display = "block";
     ligaend.style.display = "block";
-    lares.innerHTML = "Your final score is: "+lascore;
-    if(lascore >= 7){
+    lares.innerHTML = "Your final score is: " + lascore;
+    if (lascore >= 7) {
         lacom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
         lacom.style.display = "block";
     }
-    else if(lascore >= 5){
+    else if (lascore >= 5) {
         lacom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
         lacom.style.display = "block";
     }
-    else{
+    else {
         lacom.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
         lacom.style.display = "block";
     }
-    larty.addEventListener("click",()=>{
+    larty.addEventListener("click", () => {
         window.location.reload();
     });
 });
@@ -1743,29 +1747,29 @@ uclopt104.addEventListener("click", () => {
 });
 
 let ucl10 = document.getElementById("ucl10")
-let uclend = document.getElementById("uclend") 
- let uclres = document.getElementById("uclres");
- let uclcom = document.getElementById("uclcom");
+let uclend = document.getElementById("uclend")
+let uclres = document.getElementById("uclres");
+let uclcom = document.getElementById("uclcom");
 let uclrty = document.getElementById("uclrty");
 
 uclnext10.addEventListener("click", () => {
     ucl10.style.display = "none";
     uclrty.style.display = "block";
     uclend.style.display = "block";
-    uclres.innerHTML = "Your final score is: "+lascore;
-    if(uclScore >= 7){
-        lacom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
-        lacom.style.display = "block";
+    uclres.innerHTML = "Your final score is: " + lascore;
+    if (uclScore >= 7) {
+        uclcom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
+        uclcom.style.display = "block";
     }
-    else if(uclScore >= 5){
-        lacom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
-        lacom.style.display = "block";
+    else if (uclScore >= 5) {
+        uclcom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
+        uclcom.style.display = "block";
     }
-    else{
+    else {
         uclcom.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
         uclcom.style.display = "block";
     }
-    uclrty.addEventListener("click",()=>{
+    uclrty.addEventListener("click", () => {
         window.location.reload();
     });
 
@@ -2322,7 +2326,7 @@ wcopt104.addEventListener("click", () => {
 
 
 let wc10 = document.getElementById("wc10")
-let wcend = document.getElementById("wcend") 
+let wcend = document.getElementById("wcend")
 let wcres = document.getElementById("wcres");
 let wccom = document.getElementById("wccom");
 let wcrty = document.getElementById("wcrty");
@@ -2331,20 +2335,20 @@ wcnext10.addEventListener("click", () => {
     wc10.style.display = "none";
     wcrty.style.display = "block";
     wcend.style.display = "block";
-    wcres.innerHTML = "Your final score is: "+lascore;
-    if(wcScore >= 7){
+    wcres.innerHTML = "Your final score is: " + wcScore;
+    if (wcScore >= 7) {
         wccom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
         wccom.style.display = "block";
     }
-    else if(wcScore >= 5){
+    else if (wcScore >= 5) {
         wccom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
         wccom.style.display = "block";
     }
-    else{
+    else {
         wccom.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
         wccom.style.display = "block";
     }
-    wcrty.addEventListener("click",()=>{
+    wcrty.addEventListener("click", () => {
         window.location.reload();
     });
 });
