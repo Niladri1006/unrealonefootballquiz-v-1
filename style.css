@@ -1366,4 +1366,177 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 10px 10px;
     white-space: normal;
-    word-wrap: b
+    word-wrap: break-word;
+  }
+
+  #next1,
+  #next2,
+  #next3,
+  #next4,
+  #next5,
+  #next6,
+  #next7,
+  #next8,
+  #next9,
+  #next10,
+  #rty,
+  #lanext1,
+  #lanext2,
+  #lanext3,
+  #lanext4,
+  #lanext5,
+  #lanext6,
+  #lanext7,
+  #lanext8,
+  #lanext9,
+  #lanext10,
+  #larty,
+  #uclnext1,
+  #uclnext2,
+  #uclnext3,
+  #uclnext4,
+  #uclnext5,
+  #uclnext6,
+  #uclnext7,
+  #uclnext8,
+  #uclnext9,
+  #uclnext10,
+  #uclrty,
+  #wcnext1,
+  #wcnext2,
+  #wcnext3,
+  #wcnext4,
+  #wcnext5,
+  #wcnext6,
+  #wcnext7,
+  #wcnext8,
+  #wcnext9,
+  #wcnext10,
+  #wcrty {
+    display: none;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: transparent;
+    width: 40vw;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Orbitron", sans-serif;
+    border: solid red 2px;
+    margin: 10px;
+  }
+
+  #points,
+  #llpoints,
+  #uclpoints,
+  #wcpoints {
+    color: white;
+    position: absolute;
+    top: 0%;
+    transform: translate(-50%);
+    font-family: "Orbitron", sans-serif;
+    left: 70%;
+    font-size: 18px;
+  }
+
+
+  #premendcont,
+  #ligaendcont,
+  #uclendcont,
+  #wcendcont {
+    width: 60vw;
+    padding: 30px;
+    margin: 7vw;
+    height: auto;
+    background-image: url(bck.png);
+    border: 2px solid red;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  #rty,
+  #larty,
+  #uclrty,
+  #wcrty {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+
+
+  #ans,
+  #ans2,
+  #ans3,
+  #ans4,
+  #ans5,
+  #ans6,
+  #ans7,
+  #ans8,
+  #ans9,
+  #ans10,
+  #laans,
+  #laans2,
+  #laans3,
+  #laans4,
+  #laans5,
+  #laans6,
+  #laans7,
+  #laans8,
+  #laans9,
+  #laans10,
+  #uclans,
+  #uclans2,
+  #uclans3,
+  #uclans4,
+  #uclans5,
+  #uclans6,
+  #uclans7,
+  #uclans8,
+  #uclans9,
+  #uclans10,
+  #wcans,
+  #wcans2,
+  #wcans3,
+  #wcans4,
+  #wcans5,
+  #wcans6,
+  #wcans7,
+  #wcans8,
+  #wcans9,
+  #wcans10 {
+    font-size: 30px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+
+
+
+  #res,
+  #wcres,
+  #uclres,
+  #lares {
+    color: white;
+    font-size: 40px;
+  }
+
+  #comp,
+  #uclcom,
+  #wccom,
+  #lacom {
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+
+}
