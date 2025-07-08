@@ -1132,7 +1132,7 @@ body {
     width: 30vw;
     font-size: 30px;
     position: absolute;
-    top: 95%;
+    top: 93%;
   }
 
   /*Main Content*/
@@ -1141,7 +1141,7 @@ body {
   #laligas,
   #ucls,
   #wcs {
-    height: 100vh;
+    height:90vh;
     overflow: hidden;
   }
 
@@ -1187,12 +1187,6 @@ body {
   #wcquescont8,
   #wcquescont9,
   #wcquescont10 {
-    /*  width: 100vw;
-    height: 20vh;
-    background-image: url(bck.png);
-    border: 2px solid red;
-    font-family: "Roboto", sans-serif;
-    border-radius: 20px;*/
     width: 95vw;
     height: auto;
     margin: 1;
@@ -1245,7 +1239,7 @@ body {
   #wcques8,
   #wcques9,
   #wcques10 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -1352,13 +1346,13 @@ body {
   .wcans92 button,
   .wcans101 button,
   .wcans102 button {
-    font-size: 30px;
+    font-size: 25px;
     width: 80vw;
     display: flex;
     flex-direction: column;
     margin: 40px;
     cursor: pointer;
-    height: 60px;
+    height: 50px;
     border-radius: 10px;
     background-color: transparent;
     color: white;
@@ -1424,6 +1418,10 @@ body {
     font-family: "Orbitron", sans-serif;
     border: solid red 2px;
     margin: 10px;
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    transform: translate(-50%,-50%);
   }
 
   #points,
@@ -1512,9 +1510,12 @@ body {
   #wcans8,
   #wcans9,
   #wcans10 {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 45%;
+
   }
 
 
@@ -1538,5 +1539,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
   }
+ 
 
 }
