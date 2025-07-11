@@ -13,6 +13,13 @@ let laligas = document.getElementById("laligas");
 let ucls = document.getElementById("ucls");
 let wcs = document.getElementById("wcs");
 let main = document.getElementById("main");
+let mcategory = document.getElementById("mcategory");
+let wevent = document.getElementById("sp-category");
+let premt = document.getElementById("premt");
+let ligat = document.getElementById("ligat");
+let uclt = document.getElementById("uclt");
+let wct = document.getElementById("wct");
+
 
 start.addEventListener("click", () => {
 
@@ -22,6 +29,13 @@ start.addEventListener("click", () => {
     ucl.style.display = "block";
     wc.style.display = "block";
     main.style.display = "none";
+    mcategory.style.display = "block";
+    wevent.style.display = "block";
+    premt.style.display = "block";
+    ligat.style.display = "block";
+    uclt.style.display = "block";
+    wct.style.display = "block";
+    
 })
 
 
@@ -35,6 +49,12 @@ prem.addEventListener("click", () => {
     modal.style.display = "block";
     premierleague.style.display = "block";
     main.style.display = "none";
+    mcategory.style.display = "none";
+    wevent.style.display = "none";
+    premt.style.display = "none";
+    ligat.style.display = "none";
+    uclt.style.display = "none";
+    wct.style.display = "none";
     // document.body.style.backgroundImage = "url('epl bck ls.png')";
 });
 
@@ -49,7 +69,14 @@ laliga.addEventListener("click", () => {
     modal.style.display = "block";
     laligas.style.display = "block";
     main.style.display = "none";
+    mcategory.style.display = "none";
+    wevent.style.display = "none";
+    premt.style.display = "none";
+    ligat.style.display = "none";
+    uclt.style.display = "none";
+    wct.style.display = "none";
     //document.body.style.backgroundImage = "url('laliga bck ls.png')";
+ 
 });
 
 
@@ -63,6 +90,12 @@ ucl.addEventListener("click", () => {
     modal.style.display = "block";
     ucls.style.display = "block";
     main.style.display = "none";
+    mcategory.style.display = "none";
+    wevent.style.display = "none";
+    premt.style.display = "none";
+    ligat.style.display = "none";
+    uclt.style.display = "none";
+    wct.style.display = "none";
     //document.body.style.backgroundImage = "url('ucl bck ls.png')";
 });
 
@@ -75,6 +108,12 @@ wc.addEventListener("click", () => {
     mvid.style.display = "none";
     modal.style.display = "block";
     wcs.style.display = "block";
+    mcategory.style.display = "none";
+    wevent.style.display = "none";
+    premt.style.display = "none";
+    ligat.style.display = "none";
+    uclt.style.display = "none";
+    wct.style.display = "none";
     //document.body.style.backgroundImage = "url('wc bck ls.png')";
 });
 
@@ -1756,7 +1795,7 @@ uclnext10.addEventListener("click", () => {
     ucl10.style.display = "none";
     uclrty.style.display = "block";
     uclend.style.display = "block";
-    uclres.innerHTML = "Your final score is: " + lascore;
+    uclres.innerHTML = "Your final score is: " + uclScore;
     if (uclScore >= 7) {
         uclcom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
         uclcom.style.display = "block";
@@ -2335,7 +2374,7 @@ wcnext10.addEventListener("click", () => {
     wc10.style.display = "none";
     wcrty.style.display = "block";
     wcend.style.display = "block";
-    wcres.innerHTML = "Your final score is: " + wcScore;
+    wcres.innerHTML =" Your final score is: " + wcScore;
     if (wcScore >= 7) {
         wccom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
         wccom.style.display = "block";
