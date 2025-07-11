@@ -56,13 +56,17 @@ body {
 
 /*Category*/
 
+#mcategory{
+  display: none;
+}
+
 .category-1 {
   position: absolute;
   top: 20%;
   left: 30%;
   display: flex;
   flex-direction: row;
-
+  
 }
 
 #prem,
@@ -74,7 +78,48 @@ body {
   cursor: pointer;
   display: none;
 }
+ #premt{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  transform: translate(-50% , -50%);
+  display: none;
+ }
 
+ #ligat{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+  left: 82%;
+  width: 10vw;
+  transform: translate(-50% , -50%);
+  display: none;
+ }
+
+
+ #uclt{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  transform: translate(-50% , -50%);
+  display: none;
+ }
+
+ #wct{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 100%;
+  left: 85%;
+  width: 10vw;
+  transform: translate(-50% , -50%);
+  display: none;
+ }
 
 .category-2 {
   position: absolute;
@@ -95,6 +140,35 @@ body {
   display: none;
 
 }
+#sp-category {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  display: flex;
+  flex-direction: row;
+  width: 10vw;
+  height: 12vh;
+  display: none;
+}
+
+
+#sp-category h2 {
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 67%;
+  transform: translate(-50% , -50%);
+}
+
+#wevent{
+  width: 5vw;
+  height: 10vh;
+  border-radius: 20px;
+  margin-left: 80px;
+  cursor: pointer;
+  display: block;
+}
+
 
 
 /*Premier League*/
@@ -1094,6 +1168,25 @@ body {
     display: none;
   }
 
+  #premt{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 27%;
+    transform: translate(-50% , -50%);
+   }
+  
+   #ligat{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 85%;
+    width: 45vw;
+    transform: translate(-50% , -50%);
+   }
+
 
   .category-2 {
     position: absolute;
@@ -1113,6 +1206,53 @@ body {
     cursor: pointer;
     display: none;
 
+  }
+  #uclt{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 27%;
+    transform: translate(-50% , -50%);
+   }
+  
+   #wct{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    width: 30vw;
+    transform: translate(-50% , -50%);
+   }
+
+  #sp-category {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    display: flex;
+    flex-direction: row;
+    width: 10vw;
+    height: 12vh;
+    display: none;
+  }
+  
+  
+  #sp-category h2 {
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 250%;
+    transform: translate(-50% , -50%);
+  }
+  
+  #wevent{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    display: block;
   }
 
   /*Modal*/
@@ -1515,6 +1655,9 @@ body {
     font-family: "Roboto", sans-serif;
     position: absolute;
     top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
 
   }
 
