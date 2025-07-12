@@ -1175,6 +1175,7 @@ body {
     top: 100%;
     left: 27%;
     transform: translate(-50% , -50%);
+    font-size: 20px;
    }
   
    #ligat{
@@ -1182,9 +1183,10 @@ body {
     font-size: 30px;
     position: absolute;
     top: 100%;
-    left: 85%;
-    width: 45vw;
+    left: 80%;
+    width: 40vw;
     transform: translate(-50% , -50%);
+    font-size: 20px;
    }
 
 
@@ -1205,7 +1207,7 @@ body {
     margin-left: 20px;
     cursor: pointer;
     display: none;
-
+    
   }
   #uclt{
     color: white;
@@ -1214,6 +1216,7 @@ body {
     top: 100%;
     left: 27%;
     transform: translate(-50% , -50%);
+    font-size: 20px;
    }
   
    #wct{
@@ -1224,6 +1227,7 @@ body {
     left: 80%;
     width: 30vw;
     transform: translate(-50% , -50%);
+    font-size: 20px;
    }
 
   #sp-category {
@@ -1241,9 +1245,10 @@ body {
   #sp-category h2 {
     color: white;
     position: absolute;
-    top: 100%;
-    left: 250%;
+    top: 95%;
+    left: 320%;
     transform: translate(-50% , -50%);
+    font-size: 15px;
   }
   
   #wevent{
