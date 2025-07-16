@@ -7,9 +7,9 @@ body {
 
 
 #pvid {
-  width: 86.5%;
-  height: 100%;
-  margin: 0px;
+  width: 82%;
+  height: auto;
+  margin-top: 2px;
   border-radius: 20px;
   border: 3px solid red;
   display: block;
@@ -185,6 +185,15 @@ body {
   font-family: "Orbitron", sans-serif;
 }
 
+#time, #time1{
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 0%;
+  font-family: "Orbitron", sans-serif;
+  
+}
+
 
 #quescont1,
 #quescont2,
@@ -198,7 +207,7 @@ body {
 #quescont10 {
   width: 60vw;
   padding: 30px;
-  margin: 7vw;
+  margin: 5vw;
   height: auto;
   background-image: url(bck.png);
   border: 2px solid red;
@@ -416,7 +425,7 @@ body {
 #laquescont10 {
   width: 60vw;
   padding: 30px;
-  margin: 7vw;
+  margin: 5vw;
   height: auto;
   background-image: url(bck.png);
   border: 2px solid red;
@@ -725,7 +734,7 @@ body {
 #uclquescont10 {
   width: 60vw;
   padding: 30px;
-  margin: 7vw;
+  margin: 5vw;
   height: auto;
   background-image: url(bck.png);
   border: 2px solid red;
@@ -873,7 +882,7 @@ body {
 #uclans10 {
   color: white;
   font-size: 30px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #uclend {
@@ -928,7 +937,7 @@ body {
 #wcquescont10 {
   width: 60vw;
   padding: 30px;
-  margin: 7vw;
+  margin: 5vw;
   height: auto;
   background-image: url(bck.png);
   border: 2px solid red;
@@ -1581,6 +1590,18 @@ body {
     left: 70%;
     font-size: 18px;
   }
+
+  
+#time {
+  color: white;
+  position: absolute;
+  top: 0%;
+  transform: translate(-50%);
+  font-family: "Orbitron", sans-serif;
+  left: 20%;
+  font-size: 18px;
+  
+}
 
 
   #premendcont,
