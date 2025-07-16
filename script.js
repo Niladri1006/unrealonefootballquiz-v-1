@@ -19,10 +19,12 @@ let premt = document.getElementById("premt");
 let ligat = document.getElementById("ligat");
 let uclt = document.getElementById("uclt");
 let wct = document.getElementById("wct");
-
+let timet = document.getElementById("time");
+let timet1 = document.getElementById("time1");
+let time = 20;
+let t = 0;
 
 start.addEventListener("click", () => {
-
     start.style.display = "none";
     prem.style.display = "block";
     laliga.style.display = "block";
@@ -30,7 +32,6 @@ start.addEventListener("click", () => {
     wc.style.display = "block";
     main.style.display = "none";
     mcategory.style.display = "block";
-    wevent.style.display = "block";
     premt.style.display = "block";
     ligat.style.display = "block";
     uclt.style.display = "block";
@@ -119,8 +120,122 @@ wc.addEventListener("click", () => {
 
 mstart.addEventListener("click", () => {
     modal.style.display = "none";
+   
+    setInterval(()=>{
+        time = time - 1;
+        timet.innerHTML = "Time Left: " + time;
+        
+        if (time <= 0) {
+            prem1.style.display = "none";
+            prem2.style.display = "none";
+            prem3.style.display = "none";
+            prem4.style.display = "none";
+            prem5.style.display = "none";
+            prem6.style.display = "none";
+            prem7.style.display = "none";
+            prem8.style.display = "none";
+            prem9.style.display = "none";
+            prem10.style.display = "none";
+            liga1.style.display = "none";
+            liga2.style.display = "none";
+            liga3.style.display = "none";
+            liga4.style.display = "none";
+            liga5.style.display = "none";
+            liga6.style.display = "none";
+            liga7.style.display = "none";
+            liga8.style.display = "none";
+            liga9.style.display = "none";
+            liga10.style.display = "none";
+            ucl.style.display = "none";
+            ucl2.style.display = "none";
+            ucl3.style.display = "none";
+            ucl4.style.display = "none";
+            ucl5.style.display = "none";
+            ucl6.style.display = "none";
+            ucl7.style.display = "none";
+            ucl8.style.display = "none";
+            ucl9.style.display = "none";
+            ucl10.style.display = "none";
+            wc1.style.display = "none";
+            wc2.style.display = "none";
+            wc3.style.display = "none";
+            wc4.style.display = "none";
+            wc5.style.display = "none";
+            wc6.style.display = "none";
+            wc7.style.display = "none";
+            wc8.style.display = "none";
+            wc9.style.display = "none";
+            wc10.style.display = "none";
+            wcrty.style.display = "block";
+            uclrty.style.display = "block";
+            larty.style.display = "block";
+            rty.style.display = "block";
+            wcend.style.display = "block";
+            premend.style.display = "block";
+            ligaend.style.display = "block";
+            uclend.style.display = "block";
+            wcres.innerHTML = "Your final score is: " + wcScore;
+            uclres.innerHTML = "Your final score is: " + uclScore;
+            res.innerHTML = "Your final score is: " + score;
+            lares.innerHTML = "Your final score is: " + lascore;
+            timet.style.display = "none";
+        
+            if (score >= 7 ||lascore >= 7 ||uclScore >=7 ||wcScore >=7) {
+                comp.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
+                comp.style.display = "block";
+                lacom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
+                lacom.style.display = "block";
+                uclcom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
+                uclcom.style.display = "block";
+                wccom.innerHTML = "You did incredible. The way you understand the game, it's beautiful. Like Messi in 2011.  -Pep Guardiola";
+                wccom.style.display = "block";
+            }
+            else if (score >= 5 ||lascore >= 5 ) { // Corrected condition: covers 5 <= i < 7
+                comp.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
+                comp.style.display = "block";
+                lacom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
+                lacom.style.display = "block";
+                uclcom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';
+                uclcom.style.display = "block";
+                wccom.innerHTML ='Decent. Not special… yet.   -Jose Mourinho';
+                wccom.style.display = "block";
+            }
+            else { // This now correctly covers i < 5
+                comp.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
+                comp.style.display = "block";
+                lacom.innerHTML = 'This is not football. This is comedy.   -Jose Mourinho';
+                lacom.style.display = "block";
+                uclcom.innerHTML ='This is not football. This is comedy.   -Jose Mourinho';
+                uclcom.style.display = "block";
+                wccom.innerHTML = 'Decent. Not special… yet.   -Jose Mourinho';;
+                wccom.style.display = "block";
+            }
+
+       
+        
+            rty.addEventListener("click", () => {
+                window.location.reload();
+            })
+            
+            larty.addEventListener("click", () => {
+                window.location.reload();
+            });
+
+            uclrty.addEventListener("click",()=>{
+                window.location.reload();
+            })
+
+            wcrty.addEventListener("click",()=>{
+                window.location.reload();
+            })
+            // Handle time up scenario
+        }
+    }, 1000);
+    
+    timet.innerHTML = "Time Left: " + time;
 
 })
+
 
 
 //Premier League //
@@ -146,6 +261,11 @@ opt1.addEventListener("click", () => {
     ans.innerHTML = "Wrong!!<br>Alan Shearer scored 260 goals, mainly for Blackburn and Newcastle.";
     points.innerHTML = "Points: " + score;
     next1.style.display = "block";
+    
+  
+
+ 
+
 })
 
 opt2.addEventListener("click", () => {
@@ -181,9 +301,8 @@ opt4.addEventListener("click", () => {
 
 next1.addEventListener("click", () => {
     prem1.style.display = "none";
-    prem2.style.display = "block";
+    prem2.style.display = "block"; 
 })
-
 
 
 
@@ -668,6 +787,7 @@ let rty = document.getElementById("rty");
 
 
 next10.addEventListener("click", () => {
+    timet.style.display = "none";
     prem10.style.display = "none";
     rty.style.display = "block";
     premend.style.display = "block";
@@ -1208,6 +1328,7 @@ laopt104.addEventListener("click", () => {
     lanext10.style.display = "block";
 });
 lanext10.addEventListener("click", () => {
+    timet.style.display = "none";
     liga10.style.display = "none";
     larty.style.display = "block";
     ligaend.style.display = "block";
@@ -1236,6 +1357,15 @@ lanext10.addEventListener("click", () => {
 
 
 // UCL Quiz
+let ucl2 = document.getElementById("ucl2");
+let ucl3 = document.getElementById("ucl3");
+let ucl4 = document.getElementById("ucl4");
+let ucl5 = document.getElementById("ucl5");
+let ucl6= document.getElementById("ucl6");
+let ucl7 = document.getElementById("ucl7");
+let ucl8 = document.getElementById("ucl8");
+let ucl9 = document.getElementById("ucl9");
+
 document.getElementById("ucl").addEventListener("click", () => {
     prem.style.display = "none";
     laliga.style.display = "none";
@@ -1792,6 +1922,7 @@ let uclcom = document.getElementById("uclcom");
 let uclrty = document.getElementById("uclrty");
 
 uclnext10.addEventListener("click", () => {
+    timet.style.display = "none";
     ucl10.style.display = "none";
     uclrty.style.display = "block";
     uclend.style.display = "block";
@@ -1825,6 +1956,16 @@ uclnext10.addEventListener("click", () => {
 // World Cup Quiz
 let wcScore = 0;
 let wcpoints = document.getElementById("wcpoints");
+let wc1 = document.getElementById("wc1");
+let wc2 = document.getElementById("wc2");
+let wc3 = document.getElementById("wc3");
+let wc4 = document.getElementById("wc4");
+let wc5 = document.getElementById("wc5");
+let wc6 = document.getElementById("wc6");
+let wc7 = document.getElementById("wc7");
+let wc8 = document.getElementById("wc8");
+let wc9 = document.getElementById("wc9");
+
 
 // Question 1
 let wcopt1 = document.getElementById("wcopt1");
@@ -2371,6 +2512,7 @@ let wccom = document.getElementById("wccom");
 let wcrty = document.getElementById("wcrty");
 
 wcnext10.addEventListener("click", () => {
+    timet.style.display = "none";
     wc10.style.display = "none";
     wcrty.style.display = "block";
     wcend.style.display = "block";
